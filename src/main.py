@@ -19,6 +19,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from style_analyzer import FinalStylePreservationSystem
 from intelligent_data_processor import IntelligentDataProcessor
+from voice_integration_engine import VoiceIntegrationEngine
 
 class VoiceMatchCLI:
     """Main CLI class for AI Voice Match"""
@@ -577,6 +578,46 @@ def show_prompt(profile_path):
     print("=" * 50)
     print(f"📄 Prompt file: {prompt_path}")
     print(f"📏 Length: {len(prompt_content)} characters")
+
+@cli.command()
+@click.argument('data_path', type=click.Path(exists=True))
+@click.option('-o', '--output', default='personalized_voice_prompt.txt',
+              help='Output file for the generated prompt')
+@click.option('--no-code', is_flag=True, help='Skip code style analysis')
+@click.option('--no-safe-room', is_flag=True, help='Disable nuclear safe room processing')
+def create_my_voice(data_path, output, no_code, no_safe_room):
+    """Create your personalized AI voice prompt from your data"""
+
+    click.echo("🎤 Creating your personalized AI voice...")
+    click.echo(f"📁 Analyzing: {data_path}")
+
+    # Initialize the integration engine
+    engine = VoiceIntegrationEngine(safe_room_mode=not no_safe_room)
+
+    # Process the data and generate voice prompt
+    with click.progressbar(length=100, label='Processing your voice patterns') as bar:
+        result = engine.create_personalized_voice(
+            data_path=str(data_path),
+            output_path=output,
+            include_code_analysis=not no_code
+        )
+        bar.update(100)
+
+    if result.success:
+        click.echo("✅ Success! Your personalized AI voice is ready!")
+        click.echo(f"📝 Voice prompt saved to: {output}")
+        if result.processing_stats:
+            click.echo(f"📊 Processed {result.processing_stats['files_processed']} files")
+            click.echo(f"📈 Generated {result.processing_stats['prompt_tokens']} tokens")
+            click.echo(f"🎯 Voice confidence: {result.processing_stats['voice_confidence']:.0%}")
+
+        click.echo("\n🚀 Next steps:")
+        click.echo("1. Copy your personalized prompt")
+        click.echo("2. Use it with Claude, GPT, or your favorite AI")
+        click.echo("3. The AI will now sound like you!")
+    else:
+        click.echo(f"❌ Failed to create voice: {result.error_message}")
+        raise click.ClickException(result.error_message)
 
 if __name__ == '__main__':
     cli()

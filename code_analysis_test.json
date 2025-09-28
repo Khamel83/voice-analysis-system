@@ -1,0 +1,43 @@
+{
+  "voice_profile": {
+    "user_id": "temp_user",
+    "profile_name": "temp_user_voice_profile",
+    "characteristics": {
+      "communication_style": "technical",
+      "key_phrases": [],
+      "sentence_length": 13.5,
+      "formality": 0.0,
+      "positivity": 0.75,
+      "technical_level": 0.14814814814814817,
+      "enthusiasm": 1.0,
+      "directness": 1.0,
+      "paragraph_length": 2.2222222222222223,
+      "question_frequency": 0.05,
+      "exclamation_frequency": 0.15
+    },
+    "signature_phrases": [],
+    "context_preferences": {
+      "technical": 0.4444444444444444,
+      "casual": 0.0,
+      "professional": 0.2222222222222222,
+      "creative": 0.0,
+      "analytical": 0.33333333333333337
+    },
+    "sample_sentences": [
+      "This is a sample document for testing the voice analysis system.",
+      "The integration of various components has been challenging but rewarding.",
+      "I tend to be quite enthusiastic in my communication, using exclamation points and expressing excitement frequently!",
+      "Keep pushing forward, even when things get difficult.",
+      "Looking at the codebase, I can see we have some excellent components that need to be connected properly.",
+      "Let's make this happen!",
+      "The privacy-first approach is crucial - users need to trust that their data is safe.",
+      "The architecture is sound, and the implementation details are coming together nicely.",
+      "We should definitely test this with some real data soon.",
+      "Anyway, that's my take on the current state of affairs."
+    ],
+    "confidence_score": 0.31504000000000004
+  },
+  "prompt_length": 2924,
+  "prompt_tokens": 382,
+  "generated_at": "/Users/khamel83/dev/Speech"
+}
