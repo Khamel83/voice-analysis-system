@@ -20,6 +20,8 @@ AI Voice Match analyzes your writing patterns and generates custom AI prompts th
 
 **✅ Production Ready**: Complete integration with enhanced AI voice generation and knowledge boundary protection.
 
+**🎯 Current Goal**: "Here's my data, give me a system prompt that makes AI sound like me but as smart as GPT-5"
+
 ---
 
 ## 🚀 Get Started in 5 Minutes
