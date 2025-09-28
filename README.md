@@ -1,10 +1,12 @@
-# 🎤 AI Voice Match
+# 🎤 AI Voice Match - Enhanced Analysis System
 
-**Turn any AI into your voice twin using privacy-first prompt engineering**
+**Turn any AI into your voice twin using privacy-first prompt engineering with comprehensive corpus analysis**
 
-[![Privacy First](https://img.shields.io/badge/Privacy-First-green)](https://github.com/your-repo/privacy)
-[![Nuclear Safe Room](https://img.shields.io/badge/Architecture-Nuclear%20Safe%20Room-blue)](https://github.com/your-repo/architecture)
-[![Open Source](https://img.shields.io/badge/License-MIT-purple)](https://github.com/your-repo/license)
+[![Privacy First](https://img.shields.io/badge/Privacy-First-green)](https://github.com/Khamel83/voice-analysis-system#privacy)
+[![Nuclear Safe Room](https://img.shields.io/badge/Architecture-Nuclear%20Safe%20Room-blue)](https://github.com/Khamel83/voice-analysis-system#architecture)
+[![OOS Complete](https://img.shields.io/badge/OOS%20Workflow-Complete-brightgreen)](https://github.com/Khamel83/voice-analysis-system#oos-workflow)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Khamel83%2Fvoice--analysis--system-blue)](https://github.com/Khamel83/voice-analysis-system)
+[![Open Source](https://img.shields.io/badge/License-MIT-purple)](https://github.com/Khamel83/voice-analysis-system#license)
 
 ---
 
@@ -12,7 +14,11 @@
 
 AI Voice Match analyzes your writing patterns and generates custom AI prompts that make any AI (ChatGPT, Claude, etc.) sound exactly like you.
 
-**Privacy-first architecture** - your original content is never stored, only linguistic patterns are extracted.
+**🔬 Enhanced Analysis**: Complete OOS workflow implementation with 104M+ character corpus analysis, topic clustering, and knowledge boundary mapping.
+
+**🛡️ Privacy-first architecture**: Your original content is never stored, only linguistic patterns are extracted.
+
+**✅ Production Ready**: Complete integration with enhanced AI voice generation and knowledge boundary protection.
 
 ---
 
@@ -22,11 +28,11 @@ AI Voice Match analyzes your writing patterns and generates custom AI prompts th
 # 1. Process your data (emails, chats, documents)
 python3 src/main.py nuclear-process /path/to/your/data
 
-# 2. Generate your voice prompt
-python3 src/main.py generate-voice-prompt
+# 2. Generate your enhanced voice prompt
+python3 oos/ENHANCED_VOICE_INTEGRATOR_SIMPLE.py
 
-# 3. Use your voice with any AI!
-python3 src/main.py show-prompt profiles/your_voice_profile.txt
+# 3. Use your enhanced voice with any AI!
+python3 src/enhanced_ai_voice_generator.py
 ```
 
 ---
