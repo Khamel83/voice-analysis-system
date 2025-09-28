@@ -1,0 +1,8 @@
+{
+  "status_tracking_path": "/Users/khamel83/Library/Mobile Documents/com~apple~CloudDocs/Code/emailprocessing/status_tracking.csv",
+  "extracted_emails_path": "/Users/khamel83/Library/Mobile Documents/com~apple~CloudDocs/Code/emailprocessing/extracted_emails.csv",
+  "description": "Omar's email dataset configuration for voice analysis",
+  "created_at": "2025-09-27T11:59:00",
+  "total_emails_expected": 1720,
+  "estimated_words": 642000
+}

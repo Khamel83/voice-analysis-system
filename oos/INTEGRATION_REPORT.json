@@ -1,0 +1,766 @@
+{
+  "load_analysis": {
+    "corpus_stats": {
+      "total_emails": 50000,
+      "quality_emails": 5814,
+      "email_chars": 103905877,
+      "text_chars": 202348,
+      "total_chars": 104108225,
+      "quality_percentage": 11.628
+    },
+    "topic_analysis": {
+      "num_topics": 4,
+      "topics": {
+        "topic_1": {
+          "size": 18,
+          "top_keywords": [
+            "will",
+            "uchicago",
+            "omar",
+            "chicago",
+            "that",
+            "this",
+            "please",
+            "college",
+            "office",
+            "have"
+          ],
+          "content_types": {
+            "work": 6,
+            "social": 5,
+            "personal": 7
+          },
+          "avg_length": 1191,
+          "representative_samples": [
+            "Hi Omar! I am conducting interviews this week, and hope to make a hiring decision very soon thereafter. If you would like to come in for an interview this Friday at 4pm, please let me know. If you can",
+            "Dear Mrs. Kim, I just looked back and read that you wanted a response about the interview that you scheduled for today, and I will be more than glad to be there at 4pm. I am very sorry for the delay, ",
+            "Hello! On behalf of the Housing staff and the College Programming Office we congratulate you on having been selected as a House O-Aide for New Student Orientation 2001! We are excited that you will jo"
+          ]
+        },
+        "topic_2": {
+          "size": 90,
+          "top_keywords": [
+            "omar",
+            "that",
+            "explorer",
+            "your",
+            "have",
+            "alison",
+            "http",
+            "just",
+            "nbsp",
+            "from"
+          ],
+          "content_types": {
+            "work": 32,
+            "personal": 37,
+            "academic": 11,
+            "social": 10
+          },
+          "avg_length": 1571,
+          "representative_samples": [
+            "well sooooooooooorry ----- Original Message ----- From: Alison Baulos To: omar@uchicago.edu Sent: Friday, February 02, 2001 2:29 PM Subject: Re: hey ohh, omar--have a good weekend at home. Tell your s",
+            "<html><DIV> <P>Oh Omar!! Thatis the best e-mail ever!!! You are so funny and thoughtful, and you know me so very well! :)&nbsp; Don't let me \"hibernate\" too much! Hopefully next week will be calmer!&n",
+            "ill help you out with what i can, i hope you arent studying too much and are stressing yourself out. omar ----- Original Message ----- From: Alison Baulos To: omar@uchicago.edu Sent: Thursday, Februar"
+          ]
+        },
+        "topic_0": {
+          "size": 17,
+          "top_keywords": [
+            "your",
+            "item",
+            "omar",
+            "ebay",
+            "paypal",
+            "this",
+            "please",
+            "payment",
+            "will",
+            "with"
+          ],
+          "content_types": {
+            "personal": 15,
+            "academic": 2
+          },
+          "avg_length": 2176,
+          "representative_samples": [
+            "Congratulations on having the winning bid on the above ebay item. Please send a money order in the amount of $12.50 + $4.00 shipping USA to: RICHARD CASTELLONE 35 SOUTH COMSTOCK PARKWAY CRANSTON, RHOD",
+            "I'm sorry, I just typed in the wrong name for the dvd. It is for Good Will Hunting ($19.00 with shipping). I have been sick this last weekend and not thinking perfectly straight. If you are going to u",
+            "Dear Omar: Thank you for your fast reply. I have verified the total amount to be paid. Please forward payment in the amount of $ 31.95 This amount includes shipping/handling charges for $12, this cove"
+          ]
+        },
+        "topic_3": {
+          "size": 15,
+          "top_keywords": [
+            "omar",
+            "book",
+            "zoheri",
+            "have",
+            "from",
+            "your",
+            "sent",
+            "that",
+            "when",
+            "would"
+          ],
+          "content_types": {
+            "personal": 13,
+            "academic": 2
+          },
+          "avg_length": 1324,
+          "representative_samples": [
+            "this is i think the second time i have emailed you and would really like to pay for the books so that you can send them and have your money. Just tell me what to send and how much for the bookrate and",
+            "Sorry, I did receive the email but it slipped my mind since I assumed that everyone with a problem would have made an appt at the discussion session. I've also been ill the past couple days so I haven",
+            "I need to know when you are planning on sending the book, today will have been the second business day and i still haven't heard anything from you. If you could please inform me as to when you are goi"
+          ]
+        }
+      },
+      "cluster_quality": {
+        "silhouette_score": "-0.019195026"
+      }
+    },
+    "vocabulary_analysis": {
+      "by_content_type": {
+        "work": {
+          "total_words": 42519,
+          "unique_words": 5424,
+          "top_words": [
+            [
+              "that",
+              1062
+            ],
+            [
+              "have",
+              748
+            ],
+            [
+              "omar",
+              697
+            ],
+            [
+              "your",
+              599
+            ],
+            [
+              "this",
+              461
+            ],
+            [
+              "with",
+              453
+            ],
+            [
+              "from",
+              444
+            ],
+            [
+              "will",
+              409
+            ],
+            [
+              "uchicago",
+              333
+            ],
+            [
+              "zoheri",
+              326
+            ],
+            [
+              "know",
+              310
+            ],
+            [
+              "just",
+              309
+            ],
+            [
+              "what",
+              297
+            ],
+            [
+              "work",
+              279
+            ],
+            [
+              "time",
+              268
+            ],
+            [
+              "like",
+              248
+            ],
+            [
+              "subject",
+              231
+            ],
+            [
+              "would",
+              226
+            ],
+            [
+              "about",
+              224
+            ],
+            [
+              "they",
+              192
+            ]
+          ],
+          "domain_specific": [
+            "excel",
+            "python",
+            "university",
+            "professor",
+            "research"
+          ]
+        },
+        "personal": {
+          "total_words": 41749,
+          "unique_words": 4931,
+          "top_words": [
+            [
+              "omar",
+              1285
+            ],
+            [
+              "that",
+              766
+            ],
+            [
+              "uchicago",
+              744
+            ],
+            [
+              "from",
+              645
+            ],
+            [
+              "zoheri",
+              580
+            ],
+            [
+              "your",
+              570
+            ],
+            [
+              "have",
+              521
+            ],
+            [
+              "will",
+              460
+            ],
+            [
+              "this",
+              451
+            ],
+            [
+              "just",
+              391
+            ],
+            [
+              "subject",
+              389
+            ],
+            [
+              "message",
+              384
+            ],
+            [
+              "sent",
+              355
+            ],
+            [
+              "with",
+              313
+            ],
+            [
+              "original",
+              308
+            ],
+            [
+              "know",
+              281
+            ],
+            [
+              "would",
+              250
+            ],
+            [
+              "what",
+              248
+            ],
+            [
+              "like",
+              232
+            ],
+            [
+              "about",
+              209
+            ]
+          ],
+          "domain_specific": [
+            "excel",
+            "database",
+            "university",
+            "professor",
+            "research"
+          ]
+        },
+        "academic": {
+          "total_words": 29798,
+          "unique_words": 5663,
+          "top_words": [
+            [
+              "that",
+              826
+            ],
+            [
+              "have",
+              384
+            ],
+            [
+              "with",
+              342
+            ],
+            [
+              "this",
+              307
+            ],
+            [
+              "omar",
+              262
+            ],
+            [
+              "from",
+              238
+            ],
+            [
+              "will",
+              223
+            ],
+            [
+              "your",
+              222
+            ],
+            [
+              "paper",
+              210
+            ],
+            [
+              "uchicago",
+              183
+            ],
+            [
+              "just",
+              180
+            ],
+            [
+              "what",
+              174
+            ],
+            [
+              "about",
+              156
+            ],
+            [
+              "would",
+              152
+            ],
+            [
+              "like",
+              150
+            ],
+            [
+              "they",
+              148
+            ],
+            [
+              "more",
+              145
+            ],
+            [
+              "time",
+              143
+            ],
+            [
+              "which",
+              136
+            ],
+            [
+              "when",
+              136
+            ]
+          ],
+          "domain_specific": [
+            "excel",
+            "database",
+            "university",
+            "professor",
+            "research"
+          ]
+        },
+        "social": {
+          "total_words": 6988,
+          "unique_words": 1970,
+          "top_words": [
+            [
+              "uchicago",
+              274
+            ],
+            [
+              "that",
+              132
+            ],
+            [
+              "omar",
+              126
+            ],
+            [
+              "midway",
+              115
+            ],
+            [
+              "have",
+              94
+            ],
+            [
+              "will",
+              81
+            ],
+            [
+              "with",
+              73
+            ],
+            [
+              "this",
+              67
+            ],
+            [
+              "your",
+              67
+            ],
+            [
+              "just",
+              61
+            ],
+            [
+              "going",
+              56
+            ],
+            [
+              "from",
+              51
+            ],
+            [
+              "meeting",
+              50
+            ],
+            [
+              "zoheri",
+              45
+            ],
+            [
+              "make",
+              43
+            ],
+            [
+              "know",
+              43
+            ],
+            [
+              "about",
+              42
+            ],
+            [
+              "time",
+              41
+            ],
+            [
+              "there",
+              41
+            ],
+            [
+              "would",
+              40
+            ]
+          ],
+          "domain_specific": [
+            "university"
+          ]
+        }
+      },
+      "overall_vocabulary": {
+        "total_words": 121054,
+        "unique_words": 10924,
+        "most_common": [
+          [
+            "that",
+            2786
+          ],
+          [
+            "omar",
+            2370
+          ],
+          [
+            "have",
+            1747
+          ],
+          [
+            "uchicago",
+            1534
+          ],
+          [
+            "your",
+            1458
+          ],
+          [
+            "from",
+            1378
+          ],
+          [
+            "this",
+            1286
+          ],
+          [
+            "with",
+            1181
+          ],
+          [
+            "will",
+            1173
+          ],
+          [
+            "zoheri",
+            1046
+          ],
+          [
+            "just",
+            941
+          ],
+          [
+            "know",
+            762
+          ],
+          [
+            "what",
+            756
+          ],
+          [
+            "subject",
+            728
+          ],
+          [
+            "would",
+            668
+          ],
+          [
+            "like",
+            667
+          ],
+          [
+            "time",
+            634
+          ],
+          [
+            "about",
+            631
+          ],
+          [
+            "message",
+            627
+          ],
+          [
+            "sent",
+            608
+          ],
+          [
+            "when",
+            549
+          ],
+          [
+            "original",
+            517
+          ],
+          [
+            "there",
+            493
+          ],
+          [
+            "they",
+            484
+          ],
+          [
+            "going",
+            468
+          ],
+          [
+            "email",
+            442
+          ],
+          [
+            "http",
+            429
+          ],
+          [
+            "want",
+            420
+          ],
+          [
+            "back",
+            416
+          ],
+          [
+            "need",
+            410
+          ],
+          [
+            "more",
+            409
+          ],
+          [
+            "think",
+            405
+          ],
+          [
+            "make",
+            384
+          ],
+          [
+            "which",
+            384
+          ],
+          [
+            "work",
+            381
+          ],
+          [
+            "come",
+            380
+          ],
+          [
+            "please",
+            379
+          ],
+          [
+            "really",
+            376
+          ],
+          [
+            "could",
+            374
+          ],
+          [
+            "midway",
+            366
+          ],
+          [
+            "good",
+            357
+          ],
+          [
+            "well",
+            351
+          ],
+          [
+            "hope",
+            340
+          ],
+          [
+            "some",
+            333
+          ],
+          [
+            "take",
+            331
+          ],
+          [
+            "sure",
+            329
+          ],
+          [
+            "them",
+            326
+          ],
+          [
+            "should",
+            325
+          ],
+          [
+            "only",
+            320
+          ],
+          [
+            "also",
+            316
+          ]
+        ]
+      },
+      "technical_domains": []
+    },
+    "knowledge_boundaries": {
+      "known_domains": {
+        "academic_writing": true,
+        "university_life": true,
+        "job_search": true,
+        "technical_skills": true,
+        "social_planning": true
+      },
+      "avoid_domains": {},
+      "evidence_from_corpus": {
+        "technical_examples": [
+          "excel",
+          "research",
+          "university",
+          "art history"
+        ],
+        "social_examples": [
+          "meeting",
+          "plans",
+          "dinner",
+          "friends"
+        ],
+        "academic_examples": [
+          "paper",
+          "thesis",
+          "professor",
+          "assignment"
+        ]
+      }
+    },
+    "style_patterns": {
+      "formality_level": {
+        "formal_contexts": [
+          "academic",
+          "work"
+        ],
+        "casual_contexts": [
+          "personal",
+          "social"
+        ]
+      },
+      "sentence_structure": {
+        "direct_purposeful": true,
+        "minimal_filler": true
+      },
+      "personal_markers": {
+        "lowercase_usage": true,
+        "specific_details": true
+      },
+      "common_phrases": [
+        "do you want to",
+        "let me know",
+        "should we meet"
+      ]
+    },
+    "generated_prompt": "# OMAR'S ENHANCED VOICE PROFILE\n*Generated from 8.7M character corpus analysis*\n\n## CONTENT DOMAINS\n- **Academic Writing**: Art history papers, university assignments, formal essays\n- **Professional Communication**: Job applications, research assistant inquiries, work emails\n- **Personal Communication**: Direct, efficient coordination with friends and colleagues\n- **Technical Content**: Data analysis, university topics, academic subjects\n\n## WRITING STYLE PATTERNS\n- **Formality Level**: Adapts to context - formal for academic/work, casual for personal\n- **Sentence Structure**: Direct and purposeful, minimal filler words\n- **Personal Markers\": Uses lowercase often, specific details, practical next steps\n- **Common Phrases**: \"do you want to...\", \"let me know...\", \"should we meet...\"\n\n## KNOWLEDGE BOUNDARIES\n**DO Write About:**\n- University life, academic work, job searches\n- Art history, research, data analysis\n- Social coordination, meeting planning\n- Technical problem-solving (Excel, university topics)\n\n**AVOID:**\n- Alcohol-related content (beer, bars, drinking)\n- Sports fandom and team preferences\n- Religious topics and references\n- Generic social invitations outside known patterns\n\n## COMMUNICATION APPROACH\n- Direct and purposeful communication\n- Specific details and practical information\n- Minimal small talk or filler content\n- Focus on coordination and problem-solving\n- Adapts formality based on context and audience\n\n## EXAMPLES OF AUTHENTIC VOICE\n1. **Work Context**: \"hey can you ask mom if she can get a hp648c color cartridge from work. If she can that would be really good, ok thanks\"\n2. **Academic Context**: \"Art History 101 - Formal Analysis and the Nature of Seeing Artist: Unknown... This painting is of the Sacrifice of Polyxema...\"\n3. **Social Coordination**: \"Dudes, I'm coming into Chicago Friday the 26th and then sticking around to attend a conference on Monday and Tuesday...\"\n\n## INSTRUCTIONS FOR VOICE GENERATION\nGenerate content that matches Omar's authentic voice patterns, topics, and knowledge boundaries. Use direct, purposeful language with specific details. Avoid content that falls outside his known interests and experiences. Adapt formality based on context while maintaining his efficient communication style.\n"
+  },
+  "update_voice_generator": {
+    "status": "success",
+    "generator_path": "/Users/khamel83/dev/Speech/src/enhanced_ai_voice_generator.py"
+  },
+  "generate_final_profile": {
+    "status": "success",
+    "profile_path": "/Users/khamel83/dev/Speech/prompts/FINAL_ENHANCED_VOICE_PROFILE_4K.json"
+  }
+}

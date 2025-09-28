@@ -1,0 +1,33 @@
+{
+  "statistics": {
+    "avg_word_length": 4.19,
+    "avg_sentence_length": 16.27,
+    "vocabulary_richness": 0.26,
+    "total_analyzed_chunks": 5
+  },
+  "style_markers": {
+    "formality_markers": [
+      "assist",
+      "request",
+      "however",
+      "utilize"
+    ],
+    "casual_markers": [
+      "sort of",
+      "i mean",
+      "basically",
+      "yeah",
+      "literally",
+      "you know",
+      "okay",
+      "like",
+      "kinda",
+      "actually"
+    ],
+    "primary_content_type": "email"
+  },
+  "ai_insights": [],
+  "content_distribution": {
+    "email": 5
+  }
+}

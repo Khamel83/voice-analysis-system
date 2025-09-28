@@ -1,0 +1,39 @@
+{
+  "statistics": {
+    "avg_word_length": 10.42,
+    "avg_sentence_length": 101.79,
+    "vocabulary_richness": 0.722,
+    "total_analyzed_chunks": 351
+  },
+  "style_markers": {
+    "formality_markers": [
+      "assist",
+      "however",
+      "moreover",
+      "therefore",
+      "utilize",
+      "request"
+    ],
+    "casual_markers": [
+      "basically",
+      "cool",
+      "i mean",
+      "kinda",
+      "actually",
+      "sort of",
+      "you know",
+      "yeah",
+      "like",
+      "okay"
+    ],
+    "primary_content_type": "generic"
+  },
+  "ai_insights": [],
+  "content_distribution": {
+    "documentation": 99,
+    "code": 80,
+    "generic": 135,
+    "email": 36,
+    "chat": 1
+  }
+}

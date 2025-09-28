@@ -1,0 +1,17 @@
+{
+  "real_samples": [
+    "09:47 PM Let's get going My principles in general are fast, cheap, simple As long as it runs fast, as long as it's cheap for me to have used (we're not using too much Wispr, we're not using too many LLM calls and we're using just lives on or sell them)",
+    "tonight what is the deal tonight i heard you guys are going to see euro trip and go to el famous any room in the car i thought you were going to kill bill but i guess not, and now im not sure if i want to go because its kill bill which will have lots o people AND mardi gras which is always a hastle",
+    "Re: mail Thanks mom If you can collect everything and then send it at the end of the month that would be great so I can do all my taxes On Wednesday, February 3, 2016, Zoheri, Nancy M <Nancy Zoheri@abbvie",
+    "i like the idea of a wearable fitbit that also gives me walking directions and lets me send texts i dont know, its probably stupid but i like it they didnt say anything about battery life so i'm hoping it gets a couple days but even 2 days is 3 days too short",
+    "Re: fox's birthday present to me the comments all say the same thing they have people write stories about shows they dont like all the time for some reason and then they have the one guy who likes some terrible show write a glowing review/post about said terrible show",
+    "Re: Cancel Gym Membership Eric, How could the electricity usage for 10 days be $117 I never had a bill that high when i was living in the apartment let alone when it was almost empty I was notified that I would be billed until I turned over the keys which was on September 10th so please make sure I am only billed for that time period and I will promptly pay"
+  ],
+  "generation_metadata": {
+    "total_samples": 6,
+    "avg_length": 273.5,
+    "min_length": 204,
+    "max_length": 359,
+    "voice_profile_path": "/Users/khamel83/dev/Speech/prompts/OMARS_ULTIMATE_VOICE_PROFILE_COMPLETE.txt"
+  }
+}

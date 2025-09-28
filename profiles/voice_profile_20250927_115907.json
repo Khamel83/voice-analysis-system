@@ -1,0 +1,37 @@
+{
+  "profile_id": "voice_profile_20250927_115907",
+  "batch_id": null,
+  "created_at": "2025-09-27T11:59:07.163553",
+  "metadata": {
+    "total_words": 91043,
+    "total_files": 12,
+    "batch_count": 0,
+    "analysis_date": "2025-09-27T11:59:07.163246"
+  },
+  "patterns": {
+    "metadata": {
+      "total_words": 91043,
+      "total_files": 12,
+      "batch_count": 0,
+      "analysis_date": "2025-09-27T11:59:07.163246"
+    },
+    "function_words": {},
+    "structural_patterns": {
+      "bigrams": [],
+      "trigrams": []
+    },
+    "vocabulary_metrics": {
+      "files_processed": 1.5,
+      "total_words": 20283.0
+    },
+    "style_markers": {
+      "casual": {},
+      "formal": {}
+    }
+  },
+  "prompt_stats": {
+    "prompt_length": 771,
+    "word_count": 121,
+    "target_length": 3500
+  }
+}

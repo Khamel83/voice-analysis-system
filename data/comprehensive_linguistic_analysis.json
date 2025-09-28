@@ -1,0 +1,313 @@
+{
+  "metadata": {
+    "total_words": 1530834,
+    "total_sentences": 117117,
+    "unique_words": 43347,
+    "analysis_date": "2025-09-27T12:17:00",
+    "data_sources": [
+      "personal_letters",
+      "speech_data",
+      "email_data"
+    ]
+  },
+  "linguistic_patterns": {
+    "function_words": {
+      "the": 57836,
+      "i": 56325,
+      "to": 43281,
+      "and": 31490,
+      "a": 30479,
+      "you": 27360,
+      "of": 20604,
+      "it": 20099,
+      "in": 19333,
+      "is": 18596,
+      "that": 17300,
+      "for": 16113,
+      "on": 14583,
+      "but": 13526,
+      "have": 11923,
+      "be": 11228,
+      "this": 10902,
+      "at": 10101,
+      "not": 9784,
+      "my": 9359,
+      "are": 8634,
+      "we": 8510,
+      "was": 8497,
+      "with": 8417,
+      "or": 8229,
+      "can": 7878,
+      "its": 7343,
+      "me": 6661,
+      "as": 6270,
+      "do": 5750,
+      "your": 5471,
+      "what": 5240,
+      "from": 5183,
+      "they": 4997,
+      "will": 4789,
+      "he": 4285,
+      "when": 4130,
+      "would": 3963,
+      "an": 3440,
+      "should": 3067,
+      "how": 2982,
+      "has": 2701,
+      "by": 2678,
+      "could": 2314,
+      "had": 2184,
+      "were": 2119,
+      "his": 2092,
+      "them": 2085,
+      "been": 2030,
+      "might": 1820
+    },
+    "avg_sentence_length": 13.258860797322336,
+    "avg_word_length": 4.0586837602837,
+    "vocabulary_richness": 0.02669666425651265,
+    "top_bigrams": [
+      [
+        "i m",
+        6794
+      ],
+      [
+        "in the",
+        4259
+      ],
+      [
+        "going to",
+        4065
+      ],
+      [
+        "of the",
+        3920
+      ],
+      [
+        "omar re",
+        3816
+      ],
+      [
+        "if you",
+        3553
+      ],
+      [
+        "i ll",
+        3172
+      ],
+      [
+        "but i",
+        3049
+      ],
+      [
+        "on the",
+        3033
+      ],
+      [
+        "to be",
+        2855
+      ],
+      [
+        "i have",
+        2776
+      ],
+      [
+        "want to",
+        2686
+      ],
+      [
+        "for the",
+        2684
+      ],
+      [
+        "and i",
+        2682
+      ],
+      [
+        "to the",
+        2597
+      ],
+      [
+        "i can",
+        2542
+      ],
+      [
+        "so i",
+        2395
+      ],
+      [
+        "i think",
+        2368
+      ],
+      [
+        "i dont",
+        2189
+      ],
+      [
+        "have to",
+        2145
+      ],
+      [
+        "i was",
+        2097
+      ],
+      [
+        "don t",
+        2079
+      ],
+      [
+        "at the",
+        1921
+      ],
+      [
+        "you can",
+        1891
+      ],
+      [
+        "com re",
+        1854
+      ],
+      [
+        "that i",
+        1850
+      ],
+      [
+        "to get",
+        1848
+      ],
+      [
+        "it was",
+        1760
+      ],
+      [
+        "is the",
+        1710
+      ],
+      [
+        "have a",
+        1613
+      ],
+      [
+        "need to",
+        1569
+      ],
+      [
+        "this is",
+        1565
+      ],
+      [
+        "you are",
+        1556
+      ],
+      [
+        "if i",
+        1553
+      ],
+      [
+        "is a",
+        1527
+      ],
+      [
+        "for a",
+        1522
+      ],
+      [
+        "to do",
+        1508
+      ],
+      [
+        "hpk diaspora",
+        1486
+      ],
+      [
+        "and the",
+        1476
+      ],
+      [
+        "re hpk",
+        1474
+      ],
+      [
+        "gmail com",
+        1466
+      ],
+      [
+        "http www",
+        1459
+      ],
+      [
+        "you have",
+        1442
+      ],
+      [
+        "will be",
+        1431
+      ],
+      [
+        "i just",
+        1395
+      ],
+      [
+        "it s",
+        1372
+      ],
+      [
+        "would be",
+        1362
+      ],
+      [
+        "a few",
+        1324
+      ],
+      [
+        "and then",
+        1303
+      ],
+      [
+        "when i",
+        1281
+      ]
+    ]
+  },
+  "style_markers": {
+    "casual": {
+      "actually": 1705,
+      "basically": 826,
+      "like": 6909,
+      "you know": 881,
+      "i mean": 402,
+      "sort of": 359,
+      "really": 3397,
+      "just": 6847
+    },
+    "formal": {
+      "however": 73,
+      "therefore": 11,
+      "furthermore": 3,
+      "consequently": 2,
+      "moreover": 3,
+      "additionally": 3
+    },
+    "personal": {
+      "i think": 2370,
+      "i feel": 216,
+      "i believe": 45,
+      "in my opinion": 8,
+      "from my perspective": 2
+    },
+    "collaborative": {
+      "we should": 510,
+      "we need to": 196,
+      "let us": 86,
+      "our goal": 6,
+      "together": 338
+    }
+  },
+  "communication_style": {
+    "personal_pronoun_frequency": 0.03468958899688733,
+    "direct_address_frequency": 0.02022004254517191,
+    "collaborative_language_frequency": 0.006022100332207089,
+    "analytical_markers": 5.85088496174753e-05,
+    "casual_markers": 0.013134312915181877
+  }
+}

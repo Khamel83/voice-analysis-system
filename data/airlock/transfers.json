@@ -1,0 +1,98 @@
+[
+  {
+    "batch_id": "batch_81deaa49370a_20250927_115059",
+    "timestamp": "2025-09-27T11:50:59.104170",
+    "source_files": 0,
+    "words_processed": 1971,
+    "validation_passed": true,
+    "checksum": "e8e3eaa049fb5c91"
+  },
+  {
+    "batch_id": "batch_48552d106d40_20250927_115117",
+    "timestamp": "2025-09-27T11:51:17.837822",
+    "source_files": 0,
+    "words_processed": 56,
+    "validation_passed": true,
+    "checksum": "a4461f4b07f4926a"
+  },
+  {
+    "batch_id": "batch_6938e77b8de9_20250927_115136",
+    "timestamp": "2025-09-27T11:51:36.837281",
+    "source_files": 0,
+    "words_processed": 1971,
+    "validation_passed": true,
+    "checksum": "d5ef7c5717f306f4"
+  },
+  {
+    "batch_id": "batch_b60bb8d9203c_20250927_115349",
+    "timestamp": "2025-09-27T11:53:49.094241",
+    "source_files": 2,
+    "words_processed": 38595,
+    "validation_passed": true,
+    "checksum": "1f5c9e39d1826568"
+  },
+  {
+    "batch_id": "batch_4a4f51861e0b_20250927_115351",
+    "timestamp": "2025-09-27T11:53:51.671795",
+    "source_files": 0,
+    "words_processed": 1971,
+    "validation_passed": true,
+    "checksum": "6c7de4cc5de7dd1d"
+  },
+  {
+    "batch_id": "batch_4313b9a541bc_20250927_115818",
+    "timestamp": "2025-09-27T11:58:18.081625",
+    "source_files": 0,
+    "words_processed": 1971,
+    "validation_passed": true,
+    "checksum": "fa87156b8ad4e3f4"
+  },
+  {
+    "batch_id": "batch_5910172ea03e_20250927_115836",
+    "timestamp": "2025-09-27T11:58:36.205951",
+    "source_files": 0,
+    "words_processed": 1971,
+    "validation_passed": true,
+    "checksum": "7ab66e0c918c3423"
+  },
+  {
+    "batch_id": "batch_464b9aa29452_20250927_115849",
+    "timestamp": "2025-09-27T11:58:49.365822",
+    "source_files": 1,
+    "words_processed": 1971,
+    "validation_passed": true,
+    "checksum": "a31d88b47f9371c8"
+  },
+  {
+    "batch_id": "batch_edd173c66a76_20250927_115901",
+    "timestamp": "2025-09-27T11:59:01.464289",
+    "source_files": 1,
+    "words_processed": 1971,
+    "validation_passed": true,
+    "checksum": "ac530a71c7ec9138"
+  },
+  {
+    "batch_id": "batch_1ab6572258d5_20250927_115904",
+    "timestamp": "2025-09-27T11:59:04.656392",
+    "source_files": 2,
+    "words_processed": 38595,
+    "validation_passed": true,
+    "checksum": "66350bd92ee4c6b5"
+  },
+  {
+    "batch_id": "batch_4c39b8d109ef_20250927_120623",
+    "timestamp": "2025-09-27T12:06:30.196041",
+    "source_files": 1,
+    "words_processed": 642047,
+    "validation_passed": true,
+    "checksum": "62b3e1b1f134a024"
+  },
+  {
+    "batch_id": "batch_ed923ad75c32_20250927_120940",
+    "timestamp": "2025-09-27T12:09:51.650141",
+    "source_files": 1,
+    "words_processed": 8621385,
+    "validation_passed": true,
+    "checksum": "24a7cea22186397e"
+  }
+]

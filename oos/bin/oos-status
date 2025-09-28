@@ -1,0 +1,144 @@
+#!/bin/bash
+# OOS Status Script
+
+OOS_DIR="${OOS_DIR:-$HOME/.oos}"
+CONFIG_DIR="$OOS_DIR/config"
+LOG_DIR="$OOS_DIR/logs"
+
+echo "🧠 OOS - Operational Intelligence System Status"
+echo "============================================="
+
+# Check if OOS is initialized
+if [ ! -d "$OOS_DIR" ]; then
+    echo "❌ OOS not initialized"
+    echo "Run 'oos-init' to set up OOS"
+    exit 1
+fi
+
+# Check configuration
+echo "📋 Configuration:"
+if [ -f "$CONFIG_DIR/config.json" ]; then
+    echo "  ✓ Config file exists"
+    # Show some config details
+    python3 -c "
+import json
+with open('$CONFIG_DIR/config.json') as f:
+    config = json.load(f)
+print(f'  Database: {config.get(\"db_path\", \"default\")}')
+print(f'  Max Context: {config.get(\"max_context_size\", \"default\")}')
+print(f'  Token Reduction Target: {config.get(\"token_reduction_target\", \"default\") * 100:.0f}%')
+print(f'  MCP Enabled: {config.get(\"enable_mcp\", \"default\")}')
+print(f'  Auto Optimize: {config.get(\"enable_auto_optimize\", \"default\")}')
+"
+else
+    echo "  ⚠️  No configuration file found"
+fi
+
+# Check processes
+echo ""
+echo "🔄 Running Processes:"
+
+# Check for OOS core
+OOS_PIDS=$(pgrep -f "oos_core.py" || true)
+if [ -n "$OOS_PIDS" ]; then
+    echo "  ✓ OOS Core running (PIDs: $OOS_PIDS)"
+else
+    echo "  ❌ OOS Core not running"
+fi
+
+# Check for MCP server
+MCP_PIDS=$(pgrep -f "mcp_server.py" || true)
+if [ -n "$MCP_PIDS" ]; then
+    echo "  ✓ MCP Server running (PIDs: $MCP_PIDS)"
+else
+    echo "  ⚠️  MCP Server not running"
+fi
+
+# Check database
+echo ""
+echo "💾 Database:"
+if [ -f "$OOS_DIR/oos.db" ]; then
+    DB_SIZE=$(du -h "$OOS_DIR/oos.db" | cut -f1)
+    echo "  ✓ Database exists (Size: $DB_SIZE)"
+
+    # Check database integrity
+    if sqlite3 "$OOS_DIR/oos.db" "SELECT count(*) FROM context_entries;" >/dev/null 2>&1; then
+        CONTEXT_COUNT=$(sqlite3 "$OOS_DIR/oos.db" "SELECT count(*) FROM context_entries;")
+        echo "  ✓ Database healthy ($CONTEXT_COUNT context entries)"
+    else
+        echo "  ⚠️  Database may be corrupted"
+    fi
+else
+    echo "  ❌ Database not found"
+fi
+
+# Check logs
+echo ""
+echo "📝 Logs:"
+if [ -d "$LOG_DIR" ]; then
+    LOG_COUNT=$(ls -1 "$LOG_DIR"/*.log 2>/dev/null | wc -l)
+    echo "  ✓ $LOG_COUNT log files found"
+
+    # Show recent activity
+    if [ -f "$LOG_DIR/oos-core.log" ]; then
+        echo "  Recent OOS Core activity:"
+        tail -n 3 "$LOG_DIR/oos-core.log" 2>/dev/null | sed 's/^/    /'
+    fi
+else
+    echo "  ❌ Log directory not found"
+fi
+
+# Check integration
+echo ""
+echo "🔗 Claude Code Integration:"
+if [ -n "$OOS_PIDS" ]; then
+    echo "  ✓ OOS middleware is active"
+    echo "  ✓ Token optimization enabled"
+    echo "  ✓ Context management active"
+    echo "  ✓ Meta-clarification active"
+else
+    echo "  ❌ OOS middleware not running"
+fi
+
+# Performance metrics
+echo ""
+echo "📊 Performance Metrics:"
+if [ -f "$OOS_DIR/oos.db" ]; then
+    python3 -c "
+import sqlite3
+import json
+from datetime import datetime, timedelta
+
+try:
+    conn = sqlite3.connect('$OOS_DIR/oos.db')
+    cursor = conn.cursor()
+
+    # Get recent activity
+    one_day_ago = (datetime.now() - timedelta(days=1)).timestamp()
+    cursor.execute('SELECT COUNT(*) FROM context_entries WHERE timestamp > ?', (one_day_ago,))
+    recent_entries = cursor.fetchone()[0]
+
+    # Get average confidence
+    cursor.execute('SELECT AVG(confidence_score) FROM context_entries WHERE timestamp > ?', (one_day_ago,))
+    avg_confidence = cursor.fetchone()[0] or 0
+
+    print(f'  Recent activity (24h): {recent_entries} entries')
+    print(f'  Average confidence: {avg_confidence:.2%}')
+
+    conn.close()
+except Exception as e:
+    print(f'  Error calculating metrics: {e}')
+"
+else
+    echo "  No metrics available (database not found)"
+fi
+
+echo ""
+echo "🎯 Health Status:"
+if [ -n "$OOS_PIDS" ] && [ -f "$OOS_DIR/oos.db" ]; then
+    echo "  🟢 OOS is healthy and operational"
+elif [ -n "$OOS_PIDS" ]; then
+    echo "  🟡 OOS is running but may have issues"
+else
+    echo "  🔴 OOS is not running"
+fi

@@ -1,0 +1,397 @@
+{
+  "target_threshold": 0.9,
+  "total_iterations": 10,
+  "final_success": false,
+  "improvement_history": [
+    {
+      "iteration": 1,
+      "timestamp": "2025-09-27T03:11:11.028739",
+      "success_rate": 0.0,
+      "avg_authenticity": 0.4983719536702857,
+      "threshold_met": false,
+      "issues": [
+        "Overall authenticity too low",
+        "Some segments severely lacking authenticity",
+        "Insufficient improvement over original"
+      ],
+      "test_results": {
+        "total_tests": 2,
+        "average_improvement": -0.08107494949806793,
+        "success_rate": 0.0,
+        "average_new_authenticity": 0.4983719536702857,
+        "threshold_met": false,
+        "test_results": [
+          {
+            "letter_id": 1,
+            "segment_id": 1,
+            "original_text": "3/25/25 (In Counseling)\nI want to take full responsibility for my actions and the patterns that led to them. I recognize now that last Tuesday wasn't an isolated incident but the culmination of proble...",
+            "new_text": "3/25/25 (In Counseling)\nI want to take full responsibility for my actions and the patterns that led to them. I recognize now that last Tuesday wasn't an isolated incident but the culmination of proble...",
+            "original_authenticity": 0.27916453790705587,
+            "new_authenticity": 0.27916453790705587,
+            "improvement": 0.0,
+            "threshold_met": false
+          },
+          {
+            "letter_id": 1,
+            "segment_id": 2,
+            "original_text": "I realize now that my fear of losing our connection led me to react in ways that actually damaged it. In our previous therapy session, I wasn't genuinely accepting your decision for separation even as...",
+            "new_text": "Okay, so looking back, I can see how my fear of us losing touch made me act in ways that, honestly, just made things worse between us. In our therapy session before, I wasn't really okay with your dec...",
+            "original_authenticity": 0.8797292684296514,
+            "new_authenticity": 0.7175793694335155,
+            "improvement": -0.16214989899613586,
+            "threshold_met": false
+          }
+        ]
+      }
+    },
+    {
+      "iteration": 2,
+      "timestamp": "2025-09-27T03:11:13.950893",
+      "success_rate": 0.0,
+      "avg_authenticity": 0.8224776742685344,
+      "threshold_met": false,
+      "issues": [
+        "Overall authenticity too low"
+      ],
+      "test_results": {
+        "total_tests": 2,
+        "average_improvement": 0.24303077110018073,
+        "success_rate": 0.0,
+        "average_new_authenticity": 0.8224776742685344,
+        "threshold_met": false,
+        "test_results": [
+          {
+            "letter_id": 1,
+            "segment_id": 1,
+            "original_text": "3/25/25 (In Counseling)\nI want to take full responsibility for my actions and the patterns that led to them. I recognize now that last Tuesday wasn't an isolated incident but the culmination of proble...",
+            "new_text": "3/25/25 (In Counseling)\nI really want to own up to what I did and the whole pattern of things that got me there. It's clear to me now that what happened last Tuesday wasn't just a one-off thing, but r...",
+            "original_authenticity": 0.27916453790705587,
+            "new_authenticity": 0.7834814791387168,
+            "improvement": 0.5043169412316609,
+            "threshold_met": false
+          },
+          {
+            "letter_id": 1,
+            "segment_id": 2,
+            "original_text": "I realize now that my fear of losing our connection led me to react in ways that actually damaged it. In our previous therapy session, I wasn't genuinely accepting your decision for separation even as...",
+            "new_text": "I'm seeing now that my fear of losing what we have made me act in ways that really hurt it. In our last therapy session, I wasn't truly okay with your decision to separate, even though I said I respec...",
+            "original_authenticity": 0.8797292684296514,
+            "new_authenticity": 0.8614738693983519,
+            "improvement": -0.01825539903129947,
+            "threshold_met": false
+          }
+        ]
+      }
+    },
+    {
+      "iteration": 3,
+      "timestamp": "2025-09-27T03:11:16.275243",
+      "success_rate": 0.0,
+      "avg_authenticity": 0.5718587056889652,
+      "threshold_met": false,
+      "issues": [
+        "Overall authenticity too low",
+        "Some segments severely lacking authenticity",
+        "Insufficient improvement over original"
+      ],
+      "test_results": {
+        "total_tests": 2,
+        "average_improvement": -0.0075881974793883256,
+        "success_rate": 0.0,
+        "average_new_authenticity": 0.5718587056889652,
+        "threshold_met": false,
+        "test_results": [
+          {
+            "letter_id": 1,
+            "segment_id": 1,
+            "original_text": "3/25/25 (In Counseling)\nI want to take full responsibility for my actions and the patterns that led to them. I recognize now that last Tuesday wasn't an isolated incident but the culmination of proble...",
+            "new_text": "3/25/25 (In Counseling)\nI want to take full responsibility for my actions and the patterns that led to them. I recognize now that last Tuesday wasn't an isolated incident but the culmination of proble...",
+            "original_authenticity": 0.27916453790705587,
+            "new_authenticity": 0.27916453790705587,
+            "improvement": 0.0,
+            "threshold_met": false
+          },
+          {
+            "letter_id": 1,
+            "segment_id": 2,
+            "original_text": "I realize now that my fear of losing our connection led me to react in ways that actually damaged it. In our previous therapy session, I wasn't genuinely accepting your decision for separation even as...",
+            "new_text": "I get it now, like, my fear of us losing our connection, it made me act in ways that actually hurt it. In therapy before, I wasn't really okay with your decision to separate, even though I said I resp...",
+            "original_authenticity": 0.8797292684296514,
+            "new_authenticity": 0.8645528734708747,
+            "improvement": -0.015176394958776651,
+            "threshold_met": false
+          }
+        ]
+      }
+    },
+    {
+      "iteration": 4,
+      "timestamp": "2025-09-27T03:11:18.969901",
+      "success_rate": 0.0,
+      "avg_authenticity": 0.8335747785344525,
+      "threshold_met": false,
+      "issues": [],
+      "test_results": {
+        "total_tests": 2,
+        "average_improvement": 0.2541278753660989,
+        "success_rate": 0.0,
+        "average_new_authenticity": 0.8335747785344525,
+        "threshold_met": false,
+        "test_results": [
+          {
+            "letter_id": 1,
+            "segment_id": 1,
+            "original_text": "3/25/25 (In Counseling)\nI want to take full responsibility for my actions and the patterns that led to them. I recognize now that last Tuesday wasn't an isolated incident but the culmination of proble...",
+            "new_text": "3/25/25 (In Counseling)\nI really want to own up to what I did and the ways I've been acting that got us here. It's clear to me now that what happened last Tuesday wasn't just a one-off thing, but real...",
+            "original_authenticity": 0.27916453790705587,
+            "new_authenticity": 0.8018721914585543,
+            "improvement": 0.5227076535514984,
+            "threshold_met": false
+          },
+          {
+            "letter_id": 1,
+            "segment_id": 2,
+            "original_text": "I realize now that my fear of losing our connection led me to react in ways that actually damaged it. In our previous therapy session, I wasn't genuinely accepting your decision for separation even as...",
+            "new_text": "I'm realizing now that my fear of losing our connection, you know, it actually made me react in ways that really hurt it. In our last therapy session, I wasn't truly accepting your decision for separa...",
+            "original_authenticity": 0.8797292684296514,
+            "new_authenticity": 0.8652773656103507,
+            "improvement": -0.014451902819300644,
+            "threshold_met": false
+          }
+        ]
+      }
+    },
+    {
+      "iteration": 5,
+      "timestamp": "2025-09-27T03:11:22.042348",
+      "success_rate": 0.5,
+      "avg_authenticity": 0.892977395040447,
+      "threshold_met": false,
+      "issues": [],
+      "test_results": {
+        "total_tests": 2,
+        "average_improvement": 0.3135304918720934,
+        "success_rate": 0.5,
+        "average_new_authenticity": 0.892977395040447,
+        "threshold_met": false,
+        "test_results": [
+          {
+            "letter_id": 1,
+            "segment_id": 1,
+            "original_text": "3/25/25 (In Counseling)\nI want to take full responsibility for my actions and the patterns that led to them. I recognize now that last Tuesday wasn't an isolated incident but the culmination of proble...",
+            "new_text": "3/25/25 (In Counseling)\nI really want to own up to what I've done and the ways I've been acting that brought us here. It's clear to me now that what happened last Tuesday wasn't just a one-off thing, ...",
+            "original_authenticity": 0.27916453790705587,
+            "new_authenticity": 0.8582059285558066,
+            "improvement": 0.5790413906487507,
+            "threshold_met": false
+          },
+          {
+            "letter_id": 1,
+            "segment_id": 2,
+            "original_text": "I realize now that my fear of losing our connection led me to react in ways that actually damaged it. In our previous therapy session, I wasn't genuinely accepting your decision for separation even as...",
+            "new_text": "I get it now, like, this whole fear of losing our connection, it made me react in ways that actually messed things up, you know? In our last therapy session, I wasn't really okay with your decision to...",
+            "original_authenticity": 0.8797292684296514,
+            "new_authenticity": 0.9277488615250875,
+            "improvement": 0.04801959309543613,
+            "threshold_met": true
+          }
+        ]
+      }
+    },
+    {
+      "iteration": 6,
+      "timestamp": "2025-09-27T03:11:24.901349",
+      "success_rate": 0.5,
+      "avg_authenticity": 0.8960859784222348,
+      "threshold_met": false,
+      "issues": [],
+      "test_results": {
+        "total_tests": 2,
+        "average_improvement": 0.3166390752538812,
+        "success_rate": 0.5,
+        "average_new_authenticity": 0.8960859784222348,
+        "threshold_met": false,
+        "test_results": [
+          {
+            "letter_id": 1,
+            "segment_id": 1,
+            "original_text": "3/25/25 (In Counseling)\nI want to take full responsibility for my actions and the patterns that led to them. I recognize now that last Tuesday wasn't an isolated incident but the culmination of proble...",
+            "new_text": "3/25/25 (In Counseling)\nI really want to own up to what I did and the whole pattern that got us here. It's clear to me now that what happened last Tuesday wasn't just a one-off thing, but really the e...",
+            "original_authenticity": 0.27916453790705587,
+            "new_authenticity": 0.8692342646260591,
+            "improvement": 0.5900697267190033,
+            "threshold_met": false
+          },
+          {
+            "letter_id": 1,
+            "segment_id": 2,
+            "original_text": "I realize now that my fear of losing our connection led me to react in ways that actually damaged it. In our previous therapy session, I wasn't genuinely accepting your decision for separation even as...",
+            "new_text": "I get it now, like, my fear of us drifting apart made me act in ways that really hurt things. In therapy last time, I wasn't actually okay with your decision to separate, even though I said I respecte...",
+            "original_authenticity": 0.8797292684296514,
+            "new_authenticity": 0.9229376922184105,
+            "improvement": 0.04320842378875911,
+            "threshold_met": true
+          }
+        ]
+      }
+    },
+    {
+      "iteration": 7,
+      "timestamp": "2025-09-27T03:11:27.660751",
+      "success_rate": 0.0,
+      "avg_authenticity": 0.8271140566194414,
+      "threshold_met": false,
+      "issues": [
+        "Overall authenticity too low"
+      ],
+      "test_results": {
+        "total_tests": 2,
+        "average_improvement": 0.24766715345108775,
+        "success_rate": 0.0,
+        "average_new_authenticity": 0.8271140566194414,
+        "threshold_met": false,
+        "test_results": [
+          {
+            "letter_id": 1,
+            "segment_id": 1,
+            "original_text": "3/25/25 (In Counseling)\nI want to take full responsibility for my actions and the patterns that led to them. I recognize now that last Tuesday wasn't an isolated incident but the culmination of proble...",
+            "new_text": "3/25/25 (In Counseling)\nI really want to own up to everything I've done and the whole pattern of stuff that got me here. It's clear to me now that what happened last Tuesday wasn't just a one-off thin...",
+            "original_authenticity": 0.27916453790705587,
+            "new_authenticity": 0.7654385782964341,
+            "improvement": 0.48627404038937827,
+            "threshold_met": false
+          },
+          {
+            "letter_id": 1,
+            "segment_id": 2,
+            "original_text": "I realize now that my fear of losing our connection led me to react in ways that actually damaged it. In our previous therapy session, I wasn't genuinely accepting your decision for separation even as...",
+            "new_text": "I get it now, like, my fear of us drifting apart made me act in ways that actually hurt things. In therapy last time, I wasn't really okay with your decision to separate, even though I said I respecte...",
+            "original_authenticity": 0.8797292684296514,
+            "new_authenticity": 0.8887895349424486,
+            "improvement": 0.009060266512797233,
+            "threshold_met": false
+          }
+        ]
+      }
+    },
+    {
+      "iteration": 8,
+      "timestamp": "2025-09-27T03:11:30.001614",
+      "success_rate": 0.0,
+      "avg_authenticity": 0.5828021524913232,
+      "threshold_met": false,
+      "issues": [
+        "Overall authenticity too low",
+        "Some segments severely lacking authenticity",
+        "Insufficient improvement over original"
+      ],
+      "test_results": {
+        "total_tests": 2,
+        "average_improvement": 0.0033552493229696,
+        "success_rate": 0.0,
+        "average_new_authenticity": 0.5828021524913232,
+        "threshold_met": false,
+        "test_results": [
+          {
+            "letter_id": 1,
+            "segment_id": 1,
+            "original_text": "3/25/25 (In Counseling)\nI want to take full responsibility for my actions and the patterns that led to them. I recognize now that last Tuesday wasn't an isolated incident but the culmination of proble...",
+            "new_text": "3/25/25 (In Counseling)\nI want to take full responsibility for my actions and the patterns that led to them. I recognize now that last Tuesday wasn't an isolated incident but the culmination of proble...",
+            "original_authenticity": 0.27916453790705587,
+            "new_authenticity": 0.27916453790705587,
+            "improvement": 0.0,
+            "threshold_met": false
+          },
+          {
+            "letter_id": 1,
+            "segment_id": 2,
+            "original_text": "I realize now that my fear of losing our connection led me to react in ways that actually damaged it. In our previous therapy session, I wasn't genuinely accepting your decision for separation even as...",
+            "new_text": "You know, I'm seeing now that my fear of losing what we have made me act in ways that really hurt it. In our therapy session before, I wasn't truly okay with your decision to separate, even though I s...",
+            "original_authenticity": 0.8797292684296514,
+            "new_authenticity": 0.8864397670755906,
+            "improvement": 0.0067104986459392,
+            "threshold_met": false
+          }
+        ]
+      }
+    },
+    {
+      "iteration": 9,
+      "timestamp": "2025-09-27T03:11:32.911411",
+      "success_rate": 0.5,
+      "avg_authenticity": 0.8769565691369647,
+      "threshold_met": false,
+      "issues": [],
+      "test_results": {
+        "total_tests": 2,
+        "average_improvement": 0.2975096659686111,
+        "success_rate": 0.5,
+        "average_new_authenticity": 0.8769565691369647,
+        "threshold_met": false,
+        "test_results": [
+          {
+            "letter_id": 1,
+            "segment_id": 1,
+            "original_text": "3/25/25 (In Counseling)\nI want to take full responsibility for my actions and the patterns that led to them. I recognize now that last Tuesday wasn't an isolated incident but the culmination of proble...",
+            "new_text": "3/25/25 (In Counseling)\nI really want to own up to what I've done and the whole cycle that got me there. It's clear to me now that what happened last Tuesday wasn't just a one-off thing, but really th...",
+            "original_authenticity": 0.27916453790705587,
+            "new_authenticity": 0.8514537783221834,
+            "improvement": 0.5722892404151275,
+            "threshold_met": false
+          },
+          {
+            "letter_id": 1,
+            "segment_id": 2,
+            "original_text": "I realize now that my fear of losing our connection led me to react in ways that actually damaged it. In our previous therapy session, I wasn't genuinely accepting your decision for separation even as...",
+            "new_text": "I'm seeing now how my fear of losing us made me act in ways that really hurt things. In our therapy session before, I wasn't really okay with your decision to separate, even though I said I respected ...",
+            "original_authenticity": 0.8797292684296514,
+            "new_authenticity": 0.9024593599517461,
+            "improvement": 0.02273009152209471,
+            "threshold_met": true
+          }
+        ]
+      }
+    },
+    {
+      "iteration": 10,
+      "timestamp": "2025-09-27T03:11:35.507704",
+      "success_rate": 0.0,
+      "avg_authenticity": 0.5670835679802264,
+      "threshold_met": false,
+      "issues": [
+        "Overall authenticity too low",
+        "Some segments severely lacking authenticity",
+        "Insufficient improvement over original"
+      ],
+      "test_results": {
+        "total_tests": 2,
+        "average_improvement": -0.012363335188127267,
+        "success_rate": 0.0,
+        "average_new_authenticity": 0.5670835679802264,
+        "threshold_met": false,
+        "test_results": [
+          {
+            "letter_id": 1,
+            "segment_id": 1,
+            "original_text": "3/25/25 (In Counseling)\nI want to take full responsibility for my actions and the patterns that led to them. I recognize now that last Tuesday wasn't an isolated incident but the culmination of proble...",
+            "new_text": "3/25/25 (In Counseling)\nI want to take full responsibility for my actions and the patterns that led to them. I recognize now that last Tuesday wasn't an isolated incident but the culmination of proble...",
+            "original_authenticity": 0.27916453790705587,
+            "new_authenticity": 0.27916453790705587,
+            "improvement": 0.0,
+            "threshold_met": false
+          },
+          {
+            "letter_id": 1,
+            "segment_id": 2,
+            "original_text": "I realize now that my fear of losing our connection led me to react in ways that actually damaged it. In our previous therapy session, I wasn't genuinely accepting your decision for separation even as...",
+            "new_text": "I get it now, like, my fear of us drifting apart made me act in ways that really messed things up. In our last therapy session, I wasn't really on board with your decision to separate, even though I s...",
+            "original_authenticity": 0.8797292684296514,
+            "new_authenticity": 0.8550025980533968,
+            "improvement": -0.024726670376254534,
+            "threshold_met": false
+          }
+        ]
+      }
+    }
+  ]
+}

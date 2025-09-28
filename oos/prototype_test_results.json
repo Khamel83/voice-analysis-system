@@ -1,0 +1,139 @@
+{
+  "embeddings_test": {
+    "sample_count": 20,
+    "embedding_shape": [
+      20,
+      384
+    ],
+    "test_passed": true
+  },
+  "clustering_test": {
+    "kmeans_score": "0.095503464",
+    "hdbscan_clusters": 3,
+    "sample_topics": {
+      "cluster_0": [
+        "Alison (awb143@hotmail.com) just took TheSpark's PERSONALITY TEST.\r\n According to us, she's a:\r\n\r\n ----------------------------------------------\r\n\tSubmissive Introvert Concrete Feeler\r\n    \t\t\t   -or-\r\n\t\t\tH.W.F.M.C.O.T.I.\r\n ----------------------------------------------\r\n\r\n Are you really sure you should be associating\r\n with this person?\r\n\r\n And what about you? Are you too submissive?\r\n Too outgoing? A thinker or a feeler? A gossip?\r\n A terrible, terrible person?\r\n\r\n To really find out, you must take TheSpark's\r\n famous PERSONALITY TEST, RIGHT NOW.\r\n\r\n\thttp://cupid.thespark.com/track.mpl?id=21\r\n\r\n It tells you tons of stuff about yourself and\r\n how compatible you are with all your friends.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n--------------start theSpark.com secret message-------------\r\n4978d0uucGb2l9w3zp754pe56m620ulnEX31uh7p1r5u1XNw5G15jl3enx4h\r\n2r2y81esfCcq0rxk77WmGluJyH0gni0Qt845onj57Leqswa3itWrila67jam\r\nr5a3h5vjqqnhbvhv4zrw4eia8york106Qqsu4Nwc7jRfoaYay77d0f5n6Bbe\r\nt1yOyAgf9zj8q6pHney2haODi81A6s7Ls2z1z9a4kd3js6uwoe3a1h026qrf\r\n------------------------------------------------------------",
+        "well, thanks for the info.\r\n\r\n----- Original Message ----- \r\nFrom: \"THE PERSONALITY TEST\" <personality_test@staff.thespark.com>\r\nTo: <omar@uchicago.edu>\r\nSent: Tuesday, January 09, 2001 1:48 AM\r\nSubject: is this loser Alison really right for you?\r\n\r\n\r\n> Alison (awb143@hotmail.com) just took TheSpark's PERSONALITY TEST.\r\n>  According to us, she's a:\r\n> \r\n>  ----------------------------------------------\r\n> Submissive Introvert Concrete Feeler\r\n>        -or-\r\n> H.W.F.M.C.O.T.I.\r\n>  ----------------------------------------------\r\n> \r\n>  Are you really sure you should be associating\r\n>  with this person?\r\n> \r\n>  And what about you? Are you too submissive?\r\n>  Too outgoing? A thinker or a feeler? A gossip?\r\n>  A terrible, terrible person?\r\n> \r\n>  To really find out, you must take TheSpark's\r\n>  famous PERSONALITY TEST, RIGHT NOW.\r\n> \r\n> http://cupid.thespark.com/track.mpl?id=21\r\n> \r\n>  It tells you tons of stuff about yourself and\r\n>  how compatible you are with all your friends.\r\n> \r\n> \r\n> \r\n> \r\n> \r\n> \r\n> \r\n> --------------start theSpark.com secret message-------------\r\n> 4978d0uucGb2l9w3zp754pe56m620ulnEX31uh7p1r5u1XNw5G15jl3enx4h\r\n> 2r2y81esfCcq0rxk77WmGluJyH0gni0Qt845onj57Leqswa3itWrila67jam\r\n> r5a3h5vjqqnhbvhv4zrw4eia8york106Qqsu4Nwc7jRfoaYay77d0f5n6Bbe\r\n> t1yOyAgf9zj8q6pHney2haODi81A6s7Ls2z1z9a4kd3js6uwoe3a1h026qrf\r\n> ------------------------------------------------------------\r\n>"
+      ],
+      "cluster_1": [
+        ">From: \"Joeleen Takano\" <joeleentakano@hotmail.com>\r\n>To: Bunnyfoofoo@aol.com, marybarcinas@hotmail.com, keisha_t66@hotmail.com,\r\n>nsync_crazy2000@hotmail.com, sarahec23@yahoo.com, kahikohula@yahoo.com,\r\n>vgroup02@aol.com, orotski@hotmail.com, zk8p-alfr@asahi-net.or.jp,\r\n>steodosio@hotmail.com\r\n>Subject: Fwd: HOW WELL DO YOU KNOW ME!!!!!!\r\n>Date: Sat, 04 Nov 2000 10:51:42 GST\r\n>\r\n>\r\n>\r\n>\r\n>>From: \"Daphne wrote you!\" <daphne_aguon@hotmail.com>\r\n>>To: JWFIN2000@aol.com, natbutler@yahoo.com, islandgirl95_96912@yahoo.com,\r\n>>ka_ehukai@yahoo.com, meggie114@hotmail.com, sudewine@aol.com,\r\n>>a-allen@nwu.edu, cheryltorres@latino.com, joeleentakano@hotmail.com,\r\n>>sabrinaettiene@yahoo.com, Kathy.Childers@cpms.osd.mil,\r\n>>btmendiola@chancellorsville.navy.mil, wildfrog@hotmail.com,\r\n>>cruzet@campus.edu.gu, stephC08@aol.com, balint@udayton.edu,\r\n>>disneylady@email.msn.com, GoldenDragonLotus@yahoo.com,\r\n>>nenegirl96@hotmail.com, AmmonBigD@aol.com, fgarrido@csair.com,\r\n>>perezj@bunker-hill.navy.mil, ellisn@bunker-hill.navy.mil,\r\n>>santosr@bunker-hill.navy.mil, tomk@bunker-hill.navy.mil,\r\n>>nadienn@hotmail.com, sandritaru@yahoo.com, jc240@hotmail.com,\r\n>>carlton62@hotmail.com, ttevans@pcii.net, kpinto@ameritech.net,\r\n>>franisha98@hotmail.com, ccelicia@hotmail.com, locovaldez007@hotmail.com,\r\n>>nene_girl@hotmail.com, kuametard@excite.com\r\n>>Subject: HOW WELL DO YOU KNOW ME!!!!!!\r\n>>Date: Fri, 03 Nov 2000 06:01:04 HST\r\n>>\r\n>>SURVEY WITH A TWIST\r\n>>>\r\n>>>YOU fill in the blanks about ME and send it back to me. But first send a\r\n>>>blank one out to all your friends so they can return the favor to you.\r\n>>>Be honest, they're really cool to get back, you might find out something\r\n>>>you missed before.\r\n>>>\r\n>>>1. My name:\r\n>>>\r\n>>>2. Where did we meet?:\r\n>>>\r\n>>>3. Take a stab at my middle name:\r\n>>>\r\n>>>4. How long have you known me?:\r\n>>>\r\n>>>5. How well do you know me?:\r\n>>>\r\n>>>6. Do I smoke?:\r\n>>>\r\n>>>7. Do I believe in God?:\r\n>>>\r\n>>>8. When you first saw me what was your impression?:\r\n>>>\r\n>>>9. My age?:\r\n>>>\r\n>>>10. Birthday?:\r\n>>>\r\n>>>11. Color hair?:\r\n>>>\r\n>>>12. Color eyes:\r\n>>>\r\n>>>13. Do I have any siblings?:\r\n>>>\r\n>>>14. (If opposite sex) Have you ever had a crush on me?:\r\n>>>\r\n>>>(If same sex) Have you ever been jealous of me?:\r\n>>>\r\n>>>15. What's one of my favorite things to do?:\r\n>>>\r\n>>>16. Do you remember one of the 1st things I said to you?: 17. What's my\r\n>>>favorite type of music?:\r\n>>>\r\n>>>18. What is the best feature about me?:\r\n>>>\r\n>>>19. Am I shy or outgoing?:\r\n>>>\r\n>>>20. Would you say I am funny?:\r\n>>>\r\n>>>21. Am I a rebel or do I follow all the rules?:\r\n>>>\r\n>>>22. Any special talents?:\r\n>>>\r\n>>>23. Would you consider me a friend?:\r\n>>>\r\n>>>24.Would you call me preppy, slutty, a homie, average, sporty, hippie,\r\n>>>\r\n>>>glam, nerdy, snobby, or something else?:\r\n>>>\r\n>>>25. Have you ever seen me cry?:\r\n>>>\r\n>>>26. If there were one good nickname for me what would it be?:\r\n>>>\r\n>>>27. Are my parents still together?:\r\n>>>\r\n>>>28. What do I love?:\r\n>>\r\n>\r\n\r\n_________________________________________________________________________\r\nGet Your Private, Free E-mail from MSN Hotmail at http://www.hotmail.com.\r\n\r\nShare information about yourself, create your own public profile at\r\nhttp://profiles.msn.com.",
+        "can you ask mom if she can get a hp648c color cartridge from work.  If she can that would be really good, ok thanks"
+      ],
+      "cluster_2": [
+        "Hey, me and Martin are leaving soon to go to brunch then to the third floor of the reg.  We'll be there for a while, so if you are around you can come over. Ok bye",
+        "Dear Mrs. Kim,\r\n\r\n    My name is Omar Zoheri, and I was referred to you by Alison Baulos.  She informed me that you were looking for more research assistants at the hospital and told me that to email you.  I am a first year student concentrating in Pre-Med/Biology.  I am very familiar with research work and have done much research in the past.  I am available from 1130-130 on Monday and Wednesday, from 1130-300 on Thursday and 1130-5 on Friday.  If you are still looking for assistants we may be able to get together and discuss the possibilities. \r\n\r\nOmar Zoheri"
+      ],
+      "cluster_3": [
+        "Omar Zoheri\r\n\r\n1/15/01\r\n\r\nArt History 101\r\n\r\nFormal Analysis and the Nature of Seeing\r\n\r\n \r\n\r\nArtist:            Unknown (formerly Gerard de Lairesse)\r\n\r\nTitle:     The Sacrifice of Polyxema (formerly The Sacrifice of Iphigenia)\r\n\r\nMedium:            Oil on Canvas\r\n\r\nDate:    Late 17th or 18th century\r\n\r\nDimensions:            139.07 x 94.62 x in.\r\n\r\n \r\n\r\n            James Elkins mentions in the introduction to his work The Object Stares Back, that \"recent medical experiments have shown that a great deal of vision is unconscious: we are blind to certain things and blind to our blindness. we need to be continuously blind in order to see.\"  It is a result of this blindness, that no painting can be fully appreciated at first sight.  It is at the second and subsequent sights that the painting is brought full circle and fully understood.  If every time we look at something, we are partially blind, the more times we look at the same thing, the less likely we will be blind to the same thing every time, and thus if we look at something long enough, at last we will not be blind to anything and will finally be able to see the entire object as a whole.\r\n\r\nThis painting is of the Sacrifice of Polyxema, the woman in all white, whose dress is fallen to her waste and is evidently covering up the wound inflicted on her by the man with the knife.  Her eyes are looking upwards, towards the sky, toward the gods, towards the heavens, possibly signifying her presumable knowledge that she was going to die and leave the world of the living, and enter the world of the dead or not living.  It is not clearly shown whether she knew that she was being sacrificed, presumably, again by the positioning of her eyes, to the gods.  The white of her dress is yet another point of interest.  White has traditionally signified innocence, purity, chastity and virtuousness.  These adjectives and adverbs can all also be applied to the woman in this painting.  This woman, white like a sheep, has been slaughtered or sacrificed, like a sheep to the gods or the heavens.  \r\n\r\nThe man who has killed her is a man of statue and power, as evident not only by his serious, stern and brooding face but also by his dignified gray hair and the artists use of bright colors to identify him and portray him as such.  Aside from the red in the plume in the soldier's helmet, this figure is the only one that has any red, or any really bright colors for that matter, on him or being used to portray him.  The use of red almost solely for this man may be used to signify blood or death.  This man has just killed a woman, a woman of presumable innocence and purity, and thus must be displayed as such.  \r\n\r\nAnother prominent figure in the painting is the well build, high standing man wearing the bright blue.  It is obvious by his manner of dress, that he is a man of stature.  This man is also aghast at what he has seen before him.  The woman is obviously someone either prominent as well or significant to his life and he does not want to see her death.  This is evident by his covering of his eyes, not only with his hands, but also with his cloak.  It is also evident by his bended and shaken knees and the tense and unnatural positioning of his left hand.  He may possibly be crying as shown by the position of his hand on his face, which is level with that of his ear and thus positioned tightly on the eyes.  \r\n\r\nYet he is not the only person in this painting that is sad.  This painting is not one of happiness, but of sadness and despair.  There are none with a smile on their faces, yet most are looking towards the ground, with a face that speaks to the feelings in their hearts.  Their faces of the people in this painting speak to the pain that they are feeling from the death of this \"white\" woman in front of them.  The soldiers to the left of the painting are all looking towards the ground with drooping eyes and faces.  The commoners or not prominent figures behind and next to the dying woman are all sad, except for the strange man holding the animal to his chest, who seems not to even notice the death of this \"white\" woman.  \r\n\r\nThis scene of sacrifice is the in the foreground and the rest is the background.  The foreground of this painting is lighted while the rest of it is in darkness, as evident by the bright and bold colors of the prominent figures, with their gestures and features intricately painted, contrasted with the others whose clothes are very dark and unpronounced and whose facial expressions are much less intricately painted and who seem more mysterious than the main figures.  The clouds and storm brewing up in the background is a sign that something is amiss and something great has just taken place.  The background also shows that this scene must have taken place somewhere near the center of the town, because the Roman Coliseum is clearly shown and a Coliseum is usually at the center of the town.  Also in the background are the figures in the white who are barely clothed and are sitting on top of the wall.  These figures, also in white, who look detached from the rest of the scene and who seem to unseen or unnoticed by the others in the painting can either be seen as angels or non humans or can just be locals that nobody pays attention to.  \r\n\r\nAs a whole the piece has a very realistic look and sense to it.  The characters in the foreground are light and meticulously painted with immense attention paid to detail and their facial and body expressions.  The characters in the background are dark with shadowy faces and bodies with blurry expressions yet clear knowledge of what they feel and are thinking.  The tone of this painting is that of sadness and despair with what has been done.\r\n\r\nOn the second viewing of the painting, less time was spent on pure description of the painting, but more on specific aspects and pieces of the painting that previously either did not make sense or were not looked at closely enough.  One such aspect was the strange man with the animal.  At first there was no explanation for him and his position in the painting and was left alone.   On second look the man made perfect sense.  The animal that he was carrying was a heifer, the exact same animal that the Greeks and Romans used to sacrifice to the gods to appease them.  Now his presence makes sense and it is no longer a mystery.  Another question is the man with the knife, it can be presumed that he has just killed the \"white\" woman, but with the positioning of the knife pointed towards the man in blue, will he kill him too?  Although there is no answer to this question, it is just another point that the reviewing of the painting brought up.   One thing that was not previously mentioned was the use of the frame and the way that the painting is not a complete rectangle, but a rectangle with the corners \"bitten\" out of them.  This effect forces the viewer to look towards the vertex of these curves and intern to the center of the painting, where the action is taking place.  The simple application of the frame and an unconventional method of framing and dimensioning make the painting even more powerful and interesting.  \r\n\r\nEvery painting has a meaning to be deciphered and it can not always be done on the first try.  The first viewing of a painting or a work of art for that matter allows the viewer to see what the artist has done and come up with some ideas as to what it truly means and how all the elements are put together in order to make a cohesive and coherent work of art.  It is with the subsequent viewing that the viewer finally gets to \"see\" the work of art.  As Elkins says \"seeing is metamorphosis, not mechanism\"(12).  It is the gradual progression of looking at a piece of work that allows the viewer to \"see\" it.  It is the gradual progression of looking at a piece of work that allows the viewer to grasp the concepts of the artist.  It is the gradual progression of looking at a piece of work that allows the viewer to understand the painting not only as a painting over the mantelpiece or on a wall in a museum, but as a true work of art.  It was the multiple viewing of The Sacrifice of Polyxema that made it more than a painting of a sacrifice, but a work of art.",
+        "Hey,\r\n\r\n    I have a quote for you from the amazing movie, Pulp Fiction\r\n\r\n    \"Does Marcellus Wallace look like a bitch to you\" says Samuel L. Jackson\r\n    \"What??\"  the white guy says, gets shot in the arm\r\n    \"Does Marcellus Wallace look like a bitch to you\" says Samuel L. Jackson\r\n    \"No.\" the white guy says\r\n    \"Then why are you trying to fuck him like a bitch.\" says Samuel L. Jackson, and onto Ezekiel 25.16\r\n\r\nAnyways just wanted to point out something I have noticed recently, atleast since I have come back from break.  Outside from the time we spoke at the interview, the only times I have spoken to you are when you want something, such as fixing the light or checking your email or help with math homework.  In reference to the above quote, It would definitely be prudent to change Marecllus Wallace to Omar to be exact.  I hope I don't look like a bitch, cause if I do I am more than willing to change that look.  The only thing I know is that I am not a bitch, and don't feel the need to be one.  I don't like to not help people and that is why I usually help you, just as I would help anyone else if they asked.  The only thing I ask is to not have people trying to \"fuck [me] like a bitch.\"  Yet if you find the only reason to associate with me is to \"bitch me out\", then I ask you to refrain from such behavior or contact.  Even though I promised myself I would try to never write emails anymore, I felt this one was prudent. Hopefully it will serve its purpose, one way or the other.  Since you didn't talk to me for the entire first week back, I figured I wouldn't have to, but times they are a changin'.  Anyways, that's what I noticed, maybe you haven't but maybe you have.  Now atleast we both have.\r\n\r\nOmar"
+      ],
+      "cluster_4": [
+        "If I were to expand the short paper into the long paper, would I have to necessarily rewrite the entire paper, or If I had good sentences or even a paragraph, could I keep that and just add to it? Hope you get this before tommorrow, thank you in advance.\r\n\r\nOmar Zoheri",
+        "omar-\r\n\r\ni think it would be okay to take short pieces verbatim out of the short \r\npaper, but i haven't discussed this with tang. in the future, it's a good \r\nidea to email him also with questions like this. in order to be safe, you \r\nshould make sure that this paper adds some significant development to your \r\nideas in the short paper. remember that you need to make a single argument/a \r\npoint about Aristotle.  since your shorter paper had a tendency to drift \r\ntowards being more about the show and less about Aristotle, i don't think i \r\nwould recommend taking whole paragraphs out unless you make some amendments \r\nto them to make it more clear how they are supporting your specific thesis.\r\n\r\ngood luck-\r\nkristen\r\n\r\n>From: \"Omar Zoheri\" To: \"Kristen Kearns\" Subject: aristotle paper Date: \r\n>Thu, 1 Feb 2001 16:41:06 -0600\r\n>\r\n>If I were to expand the short paper into the long paper, would I have to \r\n>necessarily rewrite the entire paper, or If I had good sentences or even a \r\n>paragraph, could I keep that and just add to it? Hope you get this before \r\n>tommorrow, thank you in advance.\r\n>\r\n>Omar Zoheri\r\n_________________________________________________________________\r\nGet your FREE download of MSN Explorer at http://explorer.msn.com"
+      ]
+    },
+    "test_passed": "False"
+  },
+  "vocabulary_extraction": {
+    "vocabulary_size": 1746,
+    "top_words": [
+      [
+        "that",
+        196
+      ],
+      [
+        "omar",
+        160
+      ],
+      [
+        "your",
+        122
+      ],
+      [
+        "this",
+        121
+      ],
+      [
+        "from",
+        109
+      ],
+      [
+        "just",
+        109
+      ],
+      [
+        "have",
+        104
+      ],
+      [
+        "will",
+        101
+      ],
+      [
+        "with",
+        95
+      ],
+      [
+        "know",
+        74
+      ],
+      [
+        "would",
+        67
+      ],
+      [
+        "uchicago",
+        65
+      ],
+      [
+        "about",
+        62
+      ],
+      [
+        "really",
+        56
+      ],
+      [
+        "zoheri",
+        56
+      ],
+      [
+        "what",
+        55
+      ],
+      [
+        "alison",
+        55
+      ],
+      [
+        "hope",
+        54
+      ],
+      [
+        "like",
+        52
+      ],
+      [
+        "think",
+        52
+      ]
+    ],
+    "technical_terms": [
+      "html",
+      "web",
+      "net",
+      "project",
+      "com",
+      "system"
+    ],
+    "test_passed": true
+  },
+  "performance_metrics": {
+    "sample_size": 30,
+    "embedding_time": 0.32701921463012695,
+    "clustering_time": 0.0014798641204833984,
+    "total_time": 0.33319711685180664,
+    "projected_full_corpus_time": 898.8214358488719,
+    "test_passed": true
+  }
+}

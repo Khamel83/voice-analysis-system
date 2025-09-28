@@ -1,0 +1,119 @@
+#!/bin/bash
+# OOS Initialization Script
+
+set -e
+
+OOS_DIR="${OOS_DIR:-$HOME/.oos}"
+CONFIG_DIR="$OOS_DIR/config"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+echo "🚀 Initializing OOS - Operational Intelligence System"
+
+# Create directories
+mkdir -p "$OOS_DIR"
+mkdir -p "$CONFIG_DIR"
+mkdir -p "$OOS_DIR/logs"
+mkdir -p "$OOS_DIR/sessions"
+
+# Copy default configuration
+if [ ! -f "$CONFIG_DIR/config.json" ]; then
+    cat > "$CONFIG_DIR/config.json" << EOF
+{
+    "db_path": "$OOS_DIR/oos.db",
+    "max_context_size": 10000,
+    "token_reduction_target": 0.5,
+    "enable_mcp": true,
+    "enable_auto_optimize": true,
+    "log_level": "INFO"
+}
+EOF
+    echo "✓ Created default configuration"
+fi
+
+# Set up pre-commit hooks
+if [ -d ".git" ]; then
+    HOOK_DIR=".git/hooks"
+    if [ ! -f "$HOOK_DIR/pre-commit" ]; then
+        cat > "$HOOK_DIR/pre-commit" << 'EOF'
+#!/bin/bash
+# OOS Pre-commit Hook
+
+# Check for API keys
+if git diff --cached --name-only | grep -qE '\.(env|key|secret|config)$'; then
+    echo "⚠️  Warning: Potential sensitive files detected in commit"
+    echo "   Please ensure no API keys or secrets are being committed"
+    read -p "Continue anyway? (y/N): " -n 1 -r
+    echo
+    if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+        exit 1
+    fi
+fi
+
+# Run OOS optimization if available
+if command -v oos-optimize &> /dev/null; then
+    oos-optimize pre-commit
+fi
+EOF
+        chmod +x "$HOOK_DIR/pre-commit"
+        echo "✓ Installed pre-commit hooks"
+    fi
+fi
+
+# Install Python dependencies
+if command -v pip3 &> /dev/null; then
+    pip3 install -r "$SCRIPT_DIR/../requirements.txt" > /dev/null 2>&1
+    echo "✓ Installed Python dependencies"
+fi
+
+# Set up shell integration
+SHELL_RC=""
+if [ -n "$BASH_VERSION" ]; then
+    SHELL_RC="$HOME/.bashrc"
+elif [ -n "$ZSH_VERSION" ]; then
+    SHELL_RC="$HOME/.zshrc"
+fi
+
+if [ -n "$SHELL_RC" ] && [ ! -f "$SHELL_RC" ]; then
+    touch "$SHELL_RC"
+fi
+
+# Add OOS to PATH
+if [ -n "$SHELL_RC" ] && ! grep -q "OOS bin" "$SHELL_RC" 2>/dev/null; then
+    echo "" >> "$SHELL_RC"
+    echo "# OOS Integration" >> "$SHELL_RC"
+    echo "export PATH=\"\$PATH:$SCRIPT_DIR\"" >> "$SHELL_RC"
+    echo "export OOS_DIR=\"$OOS_DIR\"" >> "$SHELL_RC"
+    echo "✓ Added OOS to shell PATH"
+fi
+
+# Create MCP server configuration
+if [ ! -f "$CONFIG_DIR/mcp.json" ]; then
+    cat > "$CONFIG_DIR/mcp.json" << EOF
+{
+    "server_name": "oos-mcp",
+    "version": "1.0.0",
+    "capabilities": {
+        "context_management": true,
+        "token_optimization": true,
+        "smart_workflows": true
+    },
+    "endpoints": {
+        "context": "http://localhost:8080/context",
+        "optimize": "http://localhost:8080/optimize",
+        "clarify": "http://localhost:8080/clarify"
+    }
+}
+EOF
+    echo "✓ Created MCP server configuration"
+fi
+
+echo ""
+echo "🎉 OOS initialization complete!"
+echo ""
+echo "Next steps:"
+echo "1. Restart your shell or run: source $SHELL_RC"
+echo "2. Start OOS: oos-start"
+echo "3. Check status: oos-status"
+echo ""
+echo "Configuration directory: $OOS_DIR"
+echo "Logs: $OOS_DIR/logs"

@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  # Voice API Service
+  voice-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - VOICE_PROFILE_PATH=/app/voice-profile
+    volumes:
+      - ./voice-profile:/app/voice-profile:ro
+      - /tmp/voice_sessions.db:/tmp/voice_sessions.db
+      - /tmp/voice_adaptation_models.json:/tmp/voice_adaptation_models.json
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Web Dashboard (served by API)
+  web-dashboard:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - WEB_DASHBOARD=true
+    volumes:
+      - ./web:/app/web:ro
+    command: ["python", "-m", "http.server", "8080", "--directory", "/app/web"]
+    restart: unless-stopped
+    depends_on:
+      - voice-api
+
+  # Database (SQLite is file-based, but we could add PostgreSQL for production)
+  # database:
+  #   image: postgres:13
+  #   environment:
+  #     POSTGRES_DB: voice_oos
+  #     POSTGRES_USER: voice_user
+  #     POSTGRES_PASSWORD: voice_pass
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #   ports:
+  #     - "5432:5432"
+
+  # Redis for caching (optional)
+  # redis:
+  #   image: redis:6-alpine
+  #   ports:
+  #     - "6379:6379"
+
+# volumes:
+#   postgres_data:

@@ -1,0 +1,45 @@
+{
+  "test_id": "fresh_authenticity_test_20250927_125933",
+  "created_at": "2025-09-27T12:59:33.321191",
+  "instructions": "VOICE AUTHENTICITY TEST - FRESH EXAMPLES",
+  "tests": [
+    {
+      "test_number": 1,
+      "theme": "communication",
+      "content_a": "Is that clear So first tell me that you understand and then give me the second, you know then the rest of this Sorry, I was looking through this and I stopped at got Sorry, I got lost I'm good with the UX and the character companion",
+      "content_b": "Yeah, so like, with communication, it's just, you gotta be real direct, you know?  Like, no beating around the bush. It's more about, uh, just getting the point across.  Like, if I'm explaining something, I just want it to be clear, not some big, uh, song and dance.",
+      "correct_answer": "A",
+      "content_a_real": true,
+      "content_b_real": false,
+      "length_a": 232,
+      "length_b": 266
+    },
+    {
+      "test_number": 2,
+      "theme": "planning",
+      "content_a": "Are we clear, like, before you do anything else Make sure you and I are clear on what needs to get done Before anything else, and you ask me more questions because I can answer the questions as you can see",
+      "content_b": "Okay, so planning, right?  Like, I'm thinking we gotta figure out the steps, you know,  like, what's the actual path?  And then, um, yeah, then we can just sort it out.",
+      "correct_answer": "A",
+      "content_a_real": true,
+      "content_b_real": false,
+      "length_a": 205,
+      "length_b": 168
+    },
+    {
+      "test_number": 3,
+      "theme": "problem_solving",
+      "content_a": "Yeah, so like, if something's broken, you gotta just, you know, dive in and figure out what's up.  It's not like, oh, just leave it.  It's more like, okay, what's the actual problem here?",
+      "content_b": "You know, there's a lot of different aspects of this data, and you never asked me any of this stuff, so I assumed you were able to figure it out But if you're not, then let's kind of think through this",
+      "correct_answer": "B",
+      "content_a_real": false,
+      "content_b_real": true,
+      "length_a": 187,
+      "length_b": 201
+    }
+  ],
+  "answer_key": {
+    "1": "A",
+    "2": "A",
+    "3": "B"
+  }
+}

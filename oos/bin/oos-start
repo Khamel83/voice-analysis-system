@@ -1,0 +1,101 @@
+#!/bin/bash
+# OOS Start Script - Start the OOS middleware
+
+set -e
+
+OOS_DIR="${OOS_DIR:-$HOME/.oos}"
+CONFIG_DIR="$OOS_DIR/config"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+LOG_DIR="$OOS_DIR/logs"
+
+echo "🧠 Starting OOS - Operational Intelligence System"
+
+# Check if OOS is initialized
+if [ ! -d "$OOS_DIR" ]; then
+    echo "❌ OOS not initialized. Please run 'oos-init' first."
+    exit 1
+fi
+
+# Check Python dependencies
+if ! python3 -c "import anthropic, click, rich" 2>/dev/null; then
+    echo "❌ Missing Python dependencies. Installing..."
+    pip3 install -r "$SCRIPT_DIR/../requirements.txt"
+fi
+
+# Create log directory
+mkdir -p "$LOG_DIR"
+
+# Function to cleanup on exit
+cleanup() {
+    echo ""
+    echo "🛑 Stopping OOS..."
+    if [ -n "$OOS_PID" ]; then
+        kill "$OOS_PID" 2>/dev/null || true
+    fi
+    if [ -n "$MCP_PID" ]; then
+        kill "$MCP_PID" 2>/dev/null || true
+    fi
+    echo "✓ OOS stopped"
+}
+
+# Set up signal handlers
+trap cleanup EXIT INT TERM
+
+# Start OOS core process
+echo "📡 Starting OOS core..."
+python3 "$SCRIPT_DIR/../src/oos_core.py" > "$LOG_DIR/oos-core.log" 2>&1 &
+OOS_PID=$!
+echo "✓ OOS core started (PID: $OOS_PID)"
+
+# Start MCP server if enabled
+if [ -f "$CONFIG_DIR/config.json" ]; then
+    if python3 -c "import json; config=json.load(open('$CONFIG_DIR/config.json')); print(config.get('enable_mcp', False))" | grep -q "True"; then
+        echo "🌐 Starting MCP server..."
+        python3 "$SCRIPT_DIR/../src/mcp_server.py" > "$LOG_DIR/mcp-server.log" 2>&1 &
+        MCP_PID=$!
+        echo "✓ MCP server started (PID: $MCP_PID)"
+    fi
+fi
+
+# Wait for processes to be ready
+sleep 2
+
+# Check if processes are running
+if ! kill -0 "$OOS_PID" 2>/dev/null; then
+    echo "❌ OOS core failed to start"
+    echo "Check logs: $LOG_DIR/oos-core.log"
+    exit 1
+fi
+
+if [ -n "$MCP_PID" ] && ! kill -0 "$MCP_PID" 2>/dev/null; then
+    echo "⚠️  MCP server failed to start"
+    echo "Check logs: $LOG_DIR/mcp-server.log"
+fi
+
+echo ""
+echo "🎉 OOS is running!"
+echo ""
+echo "Core Process PID: $OOS_PID"
+echo "Log directory: $LOG_DIR"
+echo ""
+echo "Available commands:"
+echo "  oos-status    - Check OOS status"
+echo "  oos-stop      - Stop OOS"
+echo "  oos-logs      - View logs"
+echo ""
+echo "OOS is now enhancing your Claude Code experience!"
+echo "Press Ctrl+C to stop OOS"
+
+# Keep script running
+while true; do
+    sleep 1
+    # Check if processes are still running
+    if ! kill -0 "$OOS_PID" 2>/dev/null; then
+        echo "❌ OOS core process died"
+        exit 1
+    fi
+    if [ -n "$MCP_PID" ] && ! kill -0 "$MCP_PID" 2>/dev/null; then
+        echo "⚠️  MCP server process died"
+        MCP_PID=""
+    fi
+done

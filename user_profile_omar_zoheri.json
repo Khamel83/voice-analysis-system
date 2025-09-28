@@ -1,0 +1,34 @@
+{
+  "user_id": "omar_zoheri",
+  "created_at": "2025-09-27T02:34:34.247595",
+  "total_words": 1971,
+  "sources": [
+    "omars_personal_letters.txt"
+  ],
+  "key_metrics": {
+    "avg_word_length": 5.094368340943683,
+    "avg_sentence_length": 20.53125,
+    "vocabulary_richness": 0.39320142059868085,
+    "authenticity_baseline": 0.95
+  },
+  "style_markers": {
+    "casual_markers": [
+      "you know",
+      "actually",
+      "like"
+    ],
+    "formal_markers": [],
+    "personal_expressions": [
+      "that escalate tension",
+      "voice gets heard.",
+      "i have my",
+      "that this is",
+      "relationship: i've developed",
+      "i spoke about",
+      "to respond with",
+      "your safest relationship.",
+      "point may reasonably",
+      "specializes in these"
+    ]
+  }
+}

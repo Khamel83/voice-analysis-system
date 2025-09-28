@@ -1,0 +1,12 @@
+#!/bin/bash
+# OOS Documentation CLI
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PYTHON_SCRIPT="$SCRIPT_DIR/../src/self_documentation.py"
+
+if [ ! -f "$PYTHON_SCRIPT" ]; then
+    echo "❌ OOS documentation script not found"
+    exit 1
+fi
+
+python3 "$PYTHON_SCRIPT" "$@"

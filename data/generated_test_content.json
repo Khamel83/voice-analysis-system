@@ -1,0 +1,26 @@
+[
+  {
+    "test_number": 1,
+    "real_content": "09:47 PM Let's get going My principles in general are fast, cheap, simple As long as it runs fast, as long as it's cheap for me to have used (we're not using too much Wispr, we're not using too many LLM calls and we're using just lives on or sell them)",
+    "fake_content": "So, like, planning, right? We gotta, you know, figure out the whole thing, like, what's the bare minimum, what's the actual goal? I mean, it's not like we have to, um, map out every single step or anything, but just enough so we don't, like, totally mess it up. Yeah.",
+    "theme": "planning",
+    "real_length": 252,
+    "fake_length": 267
+  },
+  {
+    "test_number": 2,
+    "real_content": "tonight what is the deal tonight i heard you guys are going to see euro trip and go to el famous any room in the car i thought you were going to kill bill but i guess not, and now im not sure if i want to go because its kill bill which will have lots o people AND mardi gras which is always a hastle",
+    "fake_content": "So, like, planning. I mean, we gotta have a plan, right?  It's not like we can just, you know, wing it and hope for the best.  We gotta, um, map this out.  Like, what are we actually trying to do here?  And then, yeah, figure out the steps.  It doesn't have to be, like, super intense, but we need something.",
+    "theme": "planning",
+    "real_length": 299,
+    "fake_length": 308
+  },
+  {
+    "test_number": 3,
+    "real_content": "Re: mail Thanks mom If you can collect everything and then send it at the end of the month that would be great so I can do all my taxes On Wednesday, February 3, 2016, Zoheri, Nancy M <Nancy Zoheri@abbvie",
+    "fake_content": "Yeah, like, I just wanna, you know, get stuff done.  Sometimes I just wanna, like, chill, you know?  Like, what's even the point if you can't just relax for a minute?  Um, yeah.",
+    "theme": "daily life",
+    "real_length": 204,
+    "fake_length": 177
+  }
+]

@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "total_words": 10863239,
+    "total_sentences": 965704,
+    "vocabulary_size": 107385,
+    "analysis_timestamp": "2025-09-27T03:31:41.119511"
+  },
+  "core_metrics": {
+    "avg_word_length": 4.212181099946342,
+    "avg_sentence_length": 13.162558092334711,
+    "vocabulary_richness": 0.009885173289476554,
+    "function_word_ratio": 0.3168285260040767
+  },
+  "linguistic_signature": {
+    "top_function_words": {
+      "the": 316363,
+      "i": 270218,
+      "to": 245107,
+      "on": 174551,
+      "and": 164525,
+      "a": 159467,
+      "you": 153336,
+      "at": 129678,
+      "of": 116547,
+      "in": 106338,
+      "is": 102284,
+      "it": 101068,
+      "that": 94707,
+      "for": 92434,
+      "this": 65175,
+      "be": 61396,
+      "but": 60460,
+      "have": 59497,
+      "we": 52974,
+      "are": 48966
+    },
+    "top_bigrams": [
+      "at pm",
+      "at am",
+      "in the",
+      "of the",
+      "if you",
+      "going to",
+      "on wed",
+      "on tue",
+      "on the",
+      "for the",
+      "to the",
+      "to be",
+      "want to",
+      "on thu",
+      "on mon"
+    ],
+    "top_trigrams": [
+      "aug at pm",
+      "sep at pm",
+      "oct at pm",
+      "let me know",
+      "apr at pm",
+      "jan at pm",
+      "at pm sam",
+      "mar at pm",
+      "going to be",
+      "sent from my"
+    ]
+  },
+  "style_patterns": {
+    "casual_markers": {
+      "like": 33171,
+      "actually": 7826,
+      "you know": 3925,
+      "basically": 3852,
+      "i mean": 1863,
+      "sort of": 1450
+    },
+    "formal_markers": {
+      "however": 866,
+      "therefore": 183,
+      "consequently": 35,
+      "furthermore": 21
+    },
+    "personal_expressions": [
+      "and i greatly appreciate",
+      "so i think id",
+      "night i figured since",
+      "i m actually here",
+      "that i hate how",
+      "i havent watched either",
+      "i say possibility because",
+      "morning i could toggle",
+      "i still think the",
+      "t i take it",
+      "nintendos i was trying",
+      "i won the wins",
+      "stu flex1br hi fl",
+      "i think hes mellowed",
+      "p s i could",
+      "i dont forsee it",
+      "thing i d say",
+      "i admitted that i",
+      "which i joined but",
+      "admit that i in"
+    ]
+  }
+}

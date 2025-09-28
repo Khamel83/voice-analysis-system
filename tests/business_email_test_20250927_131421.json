@@ -1,0 +1,45 @@
+{
+  "test_id": "business_email_test_20250927_131421",
+  "created_at": "2025-09-27T13:14:21.584207",
+  "instructions": "AUTHENTICITY TEST - Business Email Content Only",
+  "tests": [
+    {
+      "test_number": 1,
+      "theme": "work",
+      "content_a": "On Tue, Feb 7, 2012 at 8:43 PM, Omar Zoheri <[email]> wrote: > shippensburg, PA is no longer part of sarah palin's real america. It was already off the list because of the suspicious suffix to the city's name. -- [email]",
+      "content_b": "So, like, the work thing, you know? It\u2019s just\u2026 I figured this out, done it. Again, it was like, \"oh pick from one of the 25 best restaurants in LA\" - it's like, \"okay that's what.\"",
+      "correct_answer": "A",
+      "content_a_real": true,
+      "content_b_real": false,
+      "length_a": 220,
+      "length_b": 180
+    },
+    {
+      "test_number": 2,
+      "theme": "planning",
+      "content_a": "Dudes, I'm coming into Chicago Friday the 26th and then sticking around to attend a conference on Monday and Tuesday. I have my sleeping situation figured out as well as a ticket to cubs/sox on saturday, but no other plans. Mind taking me to the hottest clubs/bars/restaurants? -cswan",
+      "content_b": "Alright, so like, for planning, you know, we gotta just, um, lay it all out first. Like, what are we even trying to do? I mean, sometimes it's just a quick thing, other times it's like, a whole thing. Gotta figure that out. And then, yeah, just gotta get it done.",
+      "correct_answer": "A",
+      "content_a_real": true,
+      "content_b_real": false,
+      "length_a": 284,
+      "length_b": 263
+    },
+    {
+      "test_number": 3,
+      "theme": "casual",
+      "content_a": "Yeah, so like, for the casual thing, I'm thinking we just like, don't overthink it, you know? Just put some stuff out there, and if it's not, like, perfect right away, whatever. We can always tweak it later.",
+      "content_b": "with sam. im not sure what you told him (its not important anymore) but it seems as though my explanation was \"possibly the most obnoxious email ive ever received\" - direct quote. we'll see how this pans out. omar",
+      "correct_answer": "B",
+      "content_a_real": false,
+      "content_b_real": true,
+      "length_a": 207,
+      "length_b": 213
+    }
+  ],
+  "answer_key": {
+    "1": "A",
+    "2": "A",
+    "3": "B"
+  }
+}

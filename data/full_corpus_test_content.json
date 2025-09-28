@@ -1,0 +1,18 @@
+[
+  {
+    "test_number": 1,
+    "real_content": "I understand these behaviors have made you feel diminished, unheard, and unsafe. I was wrong, and I am truly sorry. I recognize this fear is completely reasonable given what happened.I understand your biggest concern is how you can know I won't cross that physical boundary again, and while I can't prove this with words alone, I'm committed to demonstrating it through consistent actions.",
+    "fake_content": "Okay, so like, communication, right? It's gotta be, you know, clear. Like, if I'm telling you something, you gotta actually get it, not just like, nod and be like, \"yeah, yeah.\" And um, sometimes I feel like we just, we just talk *at* each other, you know? Like, sending a bunch of messages and hoping something sticks. I mean, it's fine for quick stuff, but for, like, actual decisions? Nah. We need to actually, like, have a back-and-forth.",
+    "theme": "communication",
+    "real_length": 389,
+    "fake_length": 442
+  },
+  {
+    "test_number": 2,
+    "real_content": "I'm not super sure how \"Random animal\" and \"Learn about animals\" are any different; they seem to be the exact same thing. So maybe there's something missing or broken there.",
+    "fake_content": "Yeah, like, I mean, this whole personal stuff, you know? It's like, what am I even supposed to say? Just, like, basic stuff, I guess.",
+    "theme": "personal",
+    "real_length": 173,
+    "fake_length": 133
+  }
+]
